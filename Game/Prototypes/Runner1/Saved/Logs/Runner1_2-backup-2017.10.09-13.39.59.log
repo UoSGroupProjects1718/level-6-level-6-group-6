@@ -1,0 +1,1255 @@
+﻿Log file open, 10/09/17 09:04:14
+LogInit:Display: Running engine for game: Runner1
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1821427339) SRandInit(-1821427339).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 8.558653
+LogConfig:Warning: Failed to saved backup for config[Input]
+LogConfig:Warning: Failed to saved backup for config[EditorSettings]
+LogConfig:Warning: Failed to saved backup for config[Compat]
+LogConfig:Warning: Failed to saved backup for config[Lightmass]
+LogConfig:Warning: Failed to saved backup for config[Scalability]
+LogConfig:Warning: Failed to saved backup for config[Hardware]
+LogConfig:Warning: Failed to saved backup for config[KDevelopSourceCodeAccess]
+LogConfig:Warning: Failed to saved backup for config[UObjectPlugin]
+LogConfig:Warning: Failed to saved backup for config[VisualStudioSourceCodeAccess]
+LogConfig:Warning: Failed to saved backup for config[GameplayTagsEditor]
+LogConfig:Warning: Failed to saved backup for config[PluginBrowser]
+LogConfig:Warning: Failed to saved backup for config[CharacterAI]
+LogConfig:Warning: Failed to saved backup for config[AndroidMedia]
+LogConfig:Warning: Failed to saved backup for config[AvfMedia]
+LogConfig:Warning: Failed to saved backup for config[TcpMessaging]
+LogConfig:Warning: Failed to saved backup for config[UdpMessaging]
+LogConfig:Warning: Failed to saved backup for config[HTTPChunkInstaller]
+LogConfig:Warning: Failed to saved backup for config[OnlineSubsystemIOS]
+LogConfig:Warning: Failed to saved backup for config[OnlineSubsystemNull]
+LogConfig:Warning: Failed to saved backup for config[OnlineSubsystemUtils]
+LogConfig:Warning: Failed to saved backup for config[AndroidDeviceProfileSelector]
+LogConfig:Warning: Failed to saved backup for config[ExampleDeviceProfileSelector]
+LogConfig:Warning: Failed to saved backup for config[IOSDeviceProfileSelector]
+LogConfig:Warning: Failed to saved backup for config[MobilePatchingUtils]
+LogConfig:Warning: Failed to saved backup for config[OculusRift]
+LogConfig:Warning: Failed to saved backup for config[ProceduralMeshComponent]
+LogConfig:Warning: Failed to saved backup for config[WindowsMoviePlayer]
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3452394
+LogInit: Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 22 2017 17:47:00
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.09-08.04.19:943][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.09-08.04.19:951][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.09-08.04.20:055][  0]LogConfig:Warning: Failed to saved backup for config[DeviceProfiles]
+[2017.10.09-08.04.20:190][  0]LogInit: Computer: GAMES-106-002
+[2017.10.09-08.04.20:190][  0]LogInit: User: Games
+[2017.10.09-08.04.20:190][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.09-08.04.20:190][  0]LogInit: High frequency timer resolution =3.613320 MHz
+[2017.10.09-08.04.20:237][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.10.09-08.04.20:237][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.09-08.04.20:237][  0]LogMemory: Process Physical Memory: 276.26 MB used, 276.26 MB peak
+[2017.10.09-08.04.20:237][  0]LogMemory: Process Virtual Memory: 263.98 MB used, 263.98 MB peak
+[2017.10.09-08.04.20:237][  0]LogMemory: Physical Memory: 4728.97 MB used,  11532.76 MB free, 16261.73 MB total
+[2017.10.09-08.04.20:237][  0]LogMemory: Virtual Memory: 629.81 MB used,  11532.76 MB free, 8388608.00 MB total
+[2017.10.09-08.04.21:753][  0]LogInit: Using OS detected language (en-GB).
+[2017.10.09-08.04.21:753][  0]LogInit: Using OS detected locale (en-GB).
+[2017.10.09-08.04.22:067][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2017.10.09-08.04.34:607][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.09-08.04.34:629][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 760' (Feature Level 11_0)
+[2017.10.09-08.04.34:629][  0]LogD3D11RHI:       1990/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.10.09-08.04.34:629][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.09-08.04.34:646][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.09-08.04.34:647][  0]LogD3D11RHI:     GPU DeviceId: 0x1187 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.09-08.04.34:657][  0]LogWindows: EnumDisplayDevices:
+[2017.10.09-08.04.34:657][  0]LogWindows:    0. 'NVIDIA GeForce GTX 760' (P:1 D:1)
+[2017.10.09-08.04.34:657][  0]LogWindows:    1. 'NVIDIA GeForce GTX 760' (P:0 D:1)
+[2017.10.09-08.04.34:657][  0]LogWindows:    2. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2017.10.09-08.04.34:657][  0]LogWindows:    3. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2017.10.09-08.04.34:658][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.10.09-08.04.34:658][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.10.09-08.04.34:658][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.10.09-08.04.34:658][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.10.09-08.04.34:658][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 760
+[2017.10.09-08.04.34:659][  0]LogD3D11RHI:   Driver Version: 353.30 (internal:10.18.13.5330, unified:353.30)
+[2017.10.09-08.04.34:659][  0]LogD3D11RHI:      Driver Date: 6-17-2015
+[2017.10.09-08.04.34:659][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.09-08.04.34:893][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
+[2017.10.09-08.04.34:921][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.09-08.04.35:082][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.10.09-08.04.35:200][  0]LogShaderCompilers: Guid format shader working directory is 36 characters bigger than the processId version (F:/Runner1/Intermediate/Shaders/WorkingDirectory/8028/).
+[2017.10.09-08.04.35:200][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Games/AppData/Local/Temp/UnrealShaderWorkingDir/AE13653D43DFF5788200B1AA24E6B4DA/'.
+[2017.10.09-08.04.35:200][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.10.09-08.04.44:944][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.09-08.04.45:055][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.10.09-08.04.45:127][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.09-08.04.45:211][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.10.09-08.04.45:302][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.10.09-08.04.45:374][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.09-08.04.45:438][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.09-08.04.45:635][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.09-08.04.45:779][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.10.09-08.04.45:879][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.10.09-08.04.45:974][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.09-08.04.46:117][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.09-08.04.46:172][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.09-08.04.46:251][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.09-08.04.46:337][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.09-08.04.46:458][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.09-08.04.46:458][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.09-08.04.46:512][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.10.09-08.04.46:659][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.10.09-08.04.46:689][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.10.09-08.04.46:744][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.09-08.04.46:800][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.09-08.04.46:877][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.09-08.04.46:969][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.10.09-08.04.46:969][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.10.09-08.04.48:639][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.10.09-08.04.50:163][  0]LogDerivedDataCache: Loaded boot cache 1.52s 90MB C:/Users/Games/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.09-08.04.50:163][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Games/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.10.09-08.04.50:163][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/Runner1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.09-08.04.50:163][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.09-08.04.50:163][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/Runner1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.09-08.04.50:163][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.09-08.04.50:507][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.09-08.04.50:519][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Games/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.09-08.04.50:635][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.09-08.04.50:667][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.09-08.04.50:757][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.09-08.04.50:757][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.09-08.05.04:096][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.09-08.05.04:128][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.09-08.05.05:650][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.09-08.05.05:893][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.09-08.05.06:007][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.09-08.05.06:007][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.10.09-08.05.06:007][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.10.09-08.05.07:611][  0]LogConfig:Warning: Failed to saved backup for config[GameplayTagsList]
+[2017.10.09-08.05.11:203][  0]LogNetVersion: Runner1 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1518988006)
+[2017.10.09-08.05.11:649][  0]LogAssetRegistry: FAssetRegistry took 0.0249 seconds to start up
+[2017.10.09-08.05.12:046][  0]LogAssetRegistry:Error: Failed to open file for write F:/Runner1/Intermediate/AssetRegistryCache/e8c2d44a.bin
+[2017.10.09-08.05.12:051][  0]LogAssetRegistry:Error: Failed to open file for write F:/Runner1/Intermediate/AssetRegistryCache/2657c409.bin
+[2017.10.09-08.05.12:054][  0]LogAssetRegistry:Error: Failed to open file for write F:/Runner1/Intermediate/AssetRegistryCache/aff1c699.bin
+[2017.10.09-08.05.12:058][  0]LogAssetRegistry:Error: Failed to open file for write F:/Runner1/Intermediate/AssetRegistryCache/866581fd.bin
+[2017.10.09-08.05.12:083][  0]LogAssetRegistry:Error: Failed to open file for write F:/Runner1/Intermediate/AssetRegistryCache/3cfcd8c6.bin
+[2017.10.09-08.05.12:091][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.371715 seconds
+[2017.10.09-08.05.12:297][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.10.09-08.05.12:297][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.10.09-08.05.12:297][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.09-08.05.12:386][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.09-08.05.47:763][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.09-08.05.47:827][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.09-08.05.50:211][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.09-08.05.51:561][  0]SourceControl: Info Source control is disabled
+[2017.10.09-08.05.52:091][  0]SourceControl: Info Source control is disabled
+[2017.10.09-08.05.52:265][  0]SourceControl: Info Source control is disabled
+[2017.10.09-08.05.52:384][  0]SourceControl: Info Source control is disabled
+[2017.10.09-08.05.54:653][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.09-08.05.56:377][  0]LogEngine: Initializing Engine...
+[2017.10.09-08.05.56:409][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.09-08.05.57:955][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.09-08.05.57:971][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.09-08.05.58:331][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.09-08.05.58:380][  0]LogInit: XAudio2 using 'Speakers (Conexant HD Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.09-08.05.58:419][  0]LogInit: FAudioDevice initialized.
+[2017.10.09-08.05.58:489][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/Games/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.09-08.05.58:507][  0]LogInit: Texture streaming: Enabled
+[2017.10.09-08.05.58:646][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.09-08.05.59:845][  0]LogInit: Transaction tracking system initialized
+[2017.10.09-08.06.01:886][  0]BlueprintLog: New page: Editor Load
+[2017.10.09-08.06.05:855][  0]LogConfig:Warning: Failed to saved backup for config[LocalizationServiceSettings]
+[2017.10.09-08.06.05:856][  0]LocalizationService: Info Localization service is disabled
+[2017.10.09-08.06.08:884][  0]LogConsoleResponse:Display: 
+[2017.10.09-08.06.14:976][  0]LogFileCache: Scanning file cache for directory 'F:/Runner1/Content/' took 0.07s
+[2017.10.09-08.06.14:976][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.09-08.06.14:976][  0]LogCook:Display: Mobile HDR setting 1
+[2017.10.09-08.06.20:475][  0]SourceControl: Info Source control is disabled
+[2017.10.09-08.06.20:546][  0]Cmd: MAP LOAD FILE="F:/Runner1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.09-08.06.20:709][  0]LightingResults: New page: Lighting Build
+[2017.10.09-08.06.21:081][  0]MapCheck: New page: Map Check
+[2017.10.09-08.06.21:081][  0]LightingResults: New page: Lighting Build
+[2017.10.09-08.06.27:431][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.10.09-08.06.28:915][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.09-08.06.29:115][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.09-08.06.29:185][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 69.606ms to complete.
+[2017.10.09-08.06.29:185][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 8.638
+[2017.10.09-08.06.31:250][  0]LogCollectionManager: Loaded 0 collections in 0.002235 seconds
+[2017.10.09-08.06.31:482][  0]LogFileCache: Scanning file cache for directory 'F:/Runner1/Saved/Collections/' took 0.01s
+[2017.10.09-08.06.31:482][  0]LogFileCache: Scanning file cache for directory 'F:/Runner1/Content/Developers/Games/Collections/' took 0.00s
+[2017.10.09-08.06.31:482][  0]LogFileCache: Scanning file cache for directory 'F:/Runner1/Content/Collections/' took 0.00s
+[2017.10.09-08.06.31:482][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.10.09-08.06.31:559][  0]LogContentBrowser: Native class hierarchy populated in 0.0608 seconds. Added 2329 classes and 491 folders.
+[2017.10.09-08.06.31:905][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.10.09-08.06.35:434][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.10.09-08.06.35:914][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.10.09-08.06.36:335][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.10.09-08.06.36:478][  0]LogSlate: Took 0.016625 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.09-08.06.36:496][  0]LogSlate: Took 0.016370 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.09-08.06.36:521][  0]LogSlate: Took 0.019075 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.09-08.06.36:928][  0]LogRenderer: Reallocating scene render targets to support 1208x580 NumSamples 1 (Frame:1).
+[2017.10.09-08.06.37:386][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.10.09-08.06.37:811][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
+[2017.10.09-08.06.37:811][  0]LogLoad: (Engine Initialization) Total time: 164.29 seconds
+[2017.10.09-08.06.37:811][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.00 seconds
+[2017.10.09-08.06.37:811][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.09-08.06.37:811][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.09-08.06.38:150][  0]LogOcInput: OculusInput pre-init called
+[2017.10.09-08.06.38:150][  0]LogHMD: Starting GearVRController plugin
+[2017.10.09-08.06.38:332][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.09-08.06.38:732][  0]LogSlate: Took 0.083800 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.09-08.06.39:484][  3]LogAssetRegistry: Asset discovery search completed in 87.8544 seconds
+[2017.10.09-08.06.39:486][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2017.10.09-08.06.39:486][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000031 seconds (updated 0 objects)
+[2017.10.09-08.20.59:283][585]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.09-08.20.59:844][585]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.09-08.20.59:855][585]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.09-08.20.59:924][585]PIE: New page: PIE session: ThirdPersonExampleMap (9 Oct 2017 10:20:59)
+[2017.10.09-08.20.59:948][585]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.10.09-08.21.00:042][585]LogPlayLevel: PIE: StaticDuplicateObject took: (0.092389s)
+[2017.10.09-08.21.00:043][585]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.10.09-08.21.00:043][585]LogPlayLevel: PIE: World Init took: (0.001395s)
+[2017.10.09-08.21.00:043][585]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.094222s)
+[2017.10.09-08.21.00:066][585]LogInit: XAudio2 using 'Speakers (Conexant HD Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.09-08.21.00:084][585]LogInit: FAudioDevice initialized.
+[2017.10.09-08.21.00:128][585]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode'
+[2017.10.09-08.21.00:129][585]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode'
+[2017.10.09-08.21.00:129][585]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C'
+[2017.10.09-08.21.00:129][585]LogLoad: Game class is 'GameModeBase'
+[2017.10.09-08.21.00:157][585]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.10.09-09.21.00
+[2017.10.09-08.21.00:176][585]LogWorld: Bringing up level for play took: 0.024752
+[2017.10.09-08.21.00:396][585]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0017 seconds. Added 11 classes and 0 folders.
+[2017.10.09-08.21.00:411][585]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.978
+[2017.10.09-08.21.00:412][585]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.09-08.21.02:441][784]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.09-08.21.02:510][784]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.09-08.21.03:505][885]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.09-08.21.04:526][885]LogSlate: Took 0.000389 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.09-08.21.05:980][885]LogAIModule: Creating AISystem for world ProceduralMap
+[2017.10.09-08.21.06:058][885]Cmd: MAP LOAD FILE="F:/Runner1/Content/ThirdPersonBP/Maps/ProceduralMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.09-08.21.06:059][885]LightingResults: New page: Lighting Build
+[2017.10.09-08.21.06:060][885]LoadErrors: New page: Loading map: ProceduralMap.umap
+[2017.10.09-08.21.06:060][885]MapCheck: New page: Map Check
+[2017.10.09-08.21.06:060][885]LightingResults: New page: Lighting Build
+[2017.10.09-08.21.06:092][885]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.09-08.21.06:153][885]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.09-08.21.06:215][885]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 62.156ms to complete.
+[2017.10.09-08.21.06:217][885]LogFileHelpers: Loading map 'ProceduralMap' took 0.171
+[2017.10.09-08.21.07:316][  9]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.09-08.21.07:332][  9]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.09-08.21.07:332][  9]PIE: New page: PIE session: ProceduralMap (9 Oct 2017 10:21:07)
+[2017.10.09-08.21.07:332][  9]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap
+[2017.10.09-08.21.07:334][  9]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001592s)
+[2017.10.09-08.21.07:334][  9]LogAIModule: Creating AISystem for world ProceduralMap
+[2017.10.09-08.21.07:335][  9]LogPlayLevel: PIE: World Init took: (0.000664s)
+[2017.10.09-08.21.07:335][  9]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ProceduralMap.ProceduralMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap (0.002427s)
+[2017.10.09-08.21.07:351][  9]LogInit: XAudio2 using 'Speakers (Conexant HD Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.09-08.21.07:361][  9]LogInit: FAudioDevice initialized.
+[2017.10.09-08.21.07:389][  9]LogLoad: Game class is 'RunnerGameMode_C'
+[2017.10.09-08.21.07:392][  9]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap up for play (max tick rate 0) at 2017.10.09-09.21.07
+[2017.10.09-08.21.07:392][  9]LogWorld: Bringing up level for play took: 0.001424
+[2017.10.09-08.21.07:479][  9]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap 0.046
+[2017.10.09-08.21.20:755][556]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.09-08.21.20:772][556]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.09-08.21.20:772][556]PIE: New page: PIE session: ProceduralMap (9 Oct 2017 10:21:20)
+[2017.10.09-08.21.20:772][556]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap
+[2017.10.09-08.21.20:775][556]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003074s)
+[2017.10.09-08.21.20:775][556]LogAIModule: Creating AISystem for world ProceduralMap
+[2017.10.09-08.21.20:776][556]LogPlayLevel: PIE: World Init took: (0.000640s)
+[2017.10.09-08.21.20:776][556]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ProceduralMap.ProceduralMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap (0.003940s)
+[2017.10.09-08.21.20:795][556]LogInit: XAudio2 using 'Speakers (Conexant HD Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.09-08.21.20:806][556]LogInit: FAudioDevice initialized.
+[2017.10.09-08.21.20:842][556]LogLoad: Game class is 'RunnerGameMode_C'
+[2017.10.09-08.21.20:846][556]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap up for play (max tick rate 0) at 2017.10.09-09.21.20
+[2017.10.09-08.21.20:847][556]LogWorld: Bringing up level for play took: 0.002113
+[2017.10.09-08.21.20:872][556]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap -0.561
+[2017.10.09-08.21.24:797][993]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.09-08.21.24:797][993]PIE: New page: SIE session: ProceduralMap (9 Oct 2017 10:21:24)
+[2017.10.09-08.21.24:797][993]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap
+[2017.10.09-08.21.24:800][993]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002349s)
+[2017.10.09-08.21.24:801][993]LogAIModule: Creating AISystem for world ProceduralMap
+[2017.10.09-08.21.24:801][993]LogPlayLevel: PIE: World Init took: (0.001010s)
+[2017.10.09-08.21.24:801][993]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ProceduralMap.ProceduralMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap (0.003686s)
+[2017.10.09-08.21.24:815][993]LogInit: XAudio2 using 'Speakers (Conexant HD Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.09-08.21.24:827][993]LogInit: FAudioDevice initialized.
+[2017.10.09-08.21.24:863][993]LogLoad: Game class is 'RunnerGameMode_C'
+[2017.10.09-08.21.24:867][993]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap up for play (max tick rate 0) at 2017.10.09-09.21.24
+[2017.10.09-08.21.24:867][993]LogWorld: Bringing up level for play took: 0.001805
+[2017.10.09-08.21.24:891][993]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap -0.542
+[2017.10.09-08.21.58:163][673]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0027 seconds. Added 112 classes and 0 folders.
+[2017.10.09-08.22.00:045][673]LogSlate: Took 0.020480 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.09-08.22.00:309][674]LogSlate: Took 0.017031 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.09-08.22.04:011][894]LogRenderer: Reallocating scene render targets to support 1208x716 NumSamples 1 (Frame:1).
+[2017.10.09-08.22.20:014][388]LogSlate: Took 0.000333 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.09-08.23.02:482][459]BlueprintLog: New page: Compile BP_Items
+[2017.10.09-08.23.12:146][206]BlueprintLog: New page: Compile BP_Items
+[2017.10.09-08.24.43:967][ 37]BlueprintLog: New page: Compile BP_Items
+[2017.10.09-08.24.48:945][446]BlueprintLog: New page: Compile BP_Items
+[2017.10.09-08.24.55:378][930]BlueprintLog: New page: Compile BP_Items
+[2017.10.09-08.24.57:358][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_Items" FILE="F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Items.uasset" SILENT=true
+[2017.10.09-08.24.57:412][ 86]LogSavePackage: Save=49.39ms
+[2017.10.09-08.24.57:412][ 86]LogSavePackage: Moving 'F:/Runner1/Saved/BP_ItemsC0C900D34146799058D6B8915FF2FCAB.tmp' to 'F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Items.uasset'
+[2017.10.09-08.24.57:418][ 86]LogSavePackage:Display: Finished SavePackage F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Items.uasset
+[2017.10.09-08.25.20:010][239]BlueprintLog: New page: Compile BP_Items
+[2017.10.09-08.25.21:037][336]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_Items" FILE="F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Items.uasset" SILENT=true
+[2017.10.09-08.25.21:253][336]LogSavePackage: Save=74.15ms
+[2017.10.09-08.25.21:254][336]LogSavePackage: Moving 'F:/Runner1/Saved/BP_ItemsEA28CAB344214C61ABB7BC89762285EF.tmp' to 'F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Items.uasset'
+[2017.10.09-08.25.21:256][336]LogSavePackage:Display: Finished SavePackage F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Items.uasset
+[2017.10.09-08.26.50:068][906]BlueprintLog: New page: Compile BP_Items
+[2017.10.09-08.27.30:027][971]BlueprintLog: New page: Compile BP_Items
+[2017.10.09-08.27.36:934][422]BlueprintLog: New page: Compile BP_Items
+[2017.10.09-08.27.49:363][468]LogTemp: Repeting last play command: Simulate
+[2017.10.09-08.27.49:389][468]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.09-08.27.49:389][468]PIE: New page: SIE session: ProceduralMap (9 Oct 2017 10:27:49)
+[2017.10.09-08.27.49:389][468]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap
+[2017.10.09-08.27.49:392][468]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002993s)
+[2017.10.09-08.27.49:393][468]LogAIModule: Creating AISystem for world ProceduralMap
+[2017.10.09-08.27.49:393][468]LogPlayLevel: PIE: World Init took: (0.000739s)
+[2017.10.09-08.27.49:393][468]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ProceduralMap.ProceduralMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap (0.003928s)
+[2017.10.09-08.27.49:409][468]LogInit: XAudio2 using 'Speakers (Conexant HD Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.09-08.27.49:419][468]LogInit: FAudioDevice initialized.
+[2017.10.09-08.27.49:451][468]LogLoad: Game class is 'RunnerGameMode_C'
+[2017.10.09-08.27.49:456][468]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap up for play (max tick rate 0) at 2017.10.09-09.27.49
+[2017.10.09-08.27.49:457][468]LogWorld: Bringing up level for play took: 0.002054
+[2017.10.09-08.27.49:485][468]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap 0.048
+[2017.10.09-08.30.17:421][366]BlueprintLog: New page: Compile BP_Items
+[2017.10.09-08.30.40:928][444]BlueprintLog: New page: Compile BP_Items
+[2017.10.09-08.30.42:410][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_Items" FILE="F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Items.uasset" SILENT=true
+[2017.10.09-08.30.42:443][555]LogSavePackage: Save=21.75ms
+[2017.10.09-08.30.42:443][555]LogSavePackage: Moving 'F:/Runner1/Saved/BP_Items1C9F4ABD458F9F44965C83A8065D607D.tmp' to 'F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Items.uasset'
+[2017.10.09-08.30.42:444][555]LogSavePackage:Display: Finished SavePackage F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Items.uasset
+[2017.10.09-08.31.05:467][894]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.10.09-08.31.45:874][647]BlueprintLog: New page: Compile BP_Items
+[2017.10.09-08.32.40:323][ 59]BlueprintLog: New page: Compile BP_Items
+[2017.10.09-08.33.23:925][241]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ProceduralMap' took 0.016
+[2017.10.09-08.33.24:267][241]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/BP_Items] ([1] browsable assets)...
+[2017.10.09-08.33.24:286][241]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/BP_Items.BP_Items]
+[2017.10.09-08.33.24:286][241]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/BP_Items]
+[2017.10.09-08.33.24:286][241]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_Items" FILE="F:/Runner1/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_Items_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.10.09-08.33.24:344][241]LogSavePackage: Save=49.67ms
+[2017.10.09-08.33.24:344][241]LogSavePackage: Moving 'F:/Runner1/Saved/BP_Items_Auto1E20C6C8B47ACF549E5DC8BB9E72717CC.tmp' to 'F:/Runner1/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_Items_Auto1.uasset'
+[2017.10.09-08.33.24:361][241]LogSavePackage:Display: Finished SavePackage F:/Runner1/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_Items_Auto1.uasset
+[2017.10.09-08.33.24:361][241]LogFileHelpers: Auto-saving content packages took 0.436
+[2017.10.09-08.33.36:506][ 12]BlueprintLog: New page: Compile BP_Items
+[2017.10.09-08.33.43:180][141]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_Items" FILE="F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Items.uasset" SILENT=true
+[2017.10.09-08.33.43:244][141]LogSavePackage: Save=54.62ms
+[2017.10.09-08.33.43:244][141]LogSavePackage: Moving 'F:/Runner1/Saved/BP_Items9B42EA54445B8940B0F522AAF3031F67.tmp' to 'F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Items.uasset'
+[2017.10.09-08.33.43:246][141]LogSavePackage:Display: Finished SavePackage F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Items.uasset
+[2017.10.09-09.20.53:264][774]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ProceduralMap' took 0.015
+[2017.10.09-09.20.53:265][774]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/BP_Floortile] ([1] browsable assets)...
+[2017.10.09-09.20.53:280][774]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/BP_Floortile.BP_Floortile]
+[2017.10.09-09.20.53:280][774]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/BP_Floortile]
+[2017.10.09-09.20.53:280][774]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_Floortile" FILE="F:/Runner1/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_Floortile_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.10.09-09.20.53:357][774]LogSavePackage: Save=68.38ms
+[2017.10.09-09.20.53:357][774]LogSavePackage: Moving 'F:/Runner1/Saved/BP_Floortile_Auto2A566DF764D95F5804E455B8E4EFCF246.tmp' to 'F:/Runner1/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_Floortile_Auto2.uasset'
+[2017.10.09-09.20.53:357][774]LogSavePackage:Display: Finished SavePackage F:/Runner1/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_Floortile_Auto2.uasset
+[2017.10.09-09.20.53:357][774]LogFileHelpers: Auto-saving content packages took 0.093
+[2017.10.09-09.22.09:914][531]BlueprintLog: New page: Compile BP_Floortile
+[2017.10.09-09.22.11:693][645]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_Floortile" FILE="F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Floortile.uasset" SILENT=true
+[2017.10.09-09.22.11:770][645]LogSavePackage: Save=70.55ms
+[2017.10.09-09.22.11:770][645]LogSavePackage: Moving 'F:/Runner1/Saved/BP_FloortileC943755745D5D0C0011E16BB5EBCDE88.tmp' to 'F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Floortile.uasset'
+[2017.10.09-09.22.11:772][645]LogSavePackage:Display: Finished SavePackage F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Floortile.uasset
+[2017.10.09-09.24.03:009][846]LogEditorTransaction: Undo Modify Component(s)
+[2017.10.09-09.30.27:769][736]BlueprintLog: New page: Compile BP_Floortile
+[2017.10.09-09.30.28:505][764]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_Floortile" FILE="F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Floortile.uasset" SILENT=true
+[2017.10.09-09.30.28:584][764]LogSavePackage: Save=70.80ms
+[2017.10.09-09.30.28:584][764]LogSavePackage: Moving 'F:/Runner1/Saved/BP_FloortileFCEFC8754801764B18B324AA3291589E.tmp' to 'F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Floortile.uasset'
+[2017.10.09-09.30.28:586][764]LogSavePackage:Display: Finished SavePackage F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Floortile.uasset
+[2017.10.09-09.31.15:703][284]BlueprintLog: New page: Compile BP_Floortile
+[2017.10.09-09.33.24:789][319]BlueprintLog: New page: Compile BP_Floortile
+[2017.10.09-09.33.50:911][540]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ProceduralMap' took 0.023
+[2017.10.09-09.33.50:912][540]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/BP_Floortile] ([1] browsable assets)...
+[2017.10.09-09.33.50:929][540]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/BP_Floortile.BP_Floortile]
+[2017.10.09-09.33.50:930][540]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/BP_Floortile]
+[2017.10.09-09.33.50:930][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_Floortile" FILE="F:/Runner1/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_Floortile_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.10.09-09.33.51:006][540]LogSavePackage: Save=72.60ms
+[2017.10.09-09.33.51:006][540]LogSavePackage: Moving 'F:/Runner1/Saved/BP_Floortile_Auto33CE8ABCD4DBF4A46B691A9A8CF226E5D.tmp' to 'F:/Runner1/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_Floortile_Auto3.uasset'
+[2017.10.09-09.33.51:006][540]LogSavePackage:Display: Finished SavePackage F:/Runner1/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_Floortile_Auto3.uasset
+[2017.10.09-09.33.51:006][540]LogFileHelpers: Auto-saving content packages took 0.094
+[2017.10.09-09.34.18:849][229]BlueprintLog: New page: Compile BP_Floortile
+[2017.10.09-09.34.21:379][425]BlueprintLog: New page: Compile BP_Floortile
+[2017.10.09-09.35.06:178][585]BlueprintLog: New page: Compile BP_Floortile
+[2017.10.09-09.36.22:767][277]BlueprintLog: New page: Compile BP_Floortile
+[2017.10.09-09.42.48:347][687]BlueprintLog: New page: Compile BP_Floortile
+[2017.10.09-09.42.49:029][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_Floortile" FILE="F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Floortile.uasset" SILENT=true
+[2017.10.09-09.42.49:113][707]LogSavePackage: Save=70.63ms
+[2017.10.09-09.42.49:113][707]LogSavePackage: Moving 'F:/Runner1/Saved/BP_Floortile9495517E4452E6B4DFE13E9FB65C4557.tmp' to 'F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Floortile.uasset'
+[2017.10.09-09.42.49:116][707]LogSavePackage:Display: Finished SavePackage F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Floortile.uasset
+[2017.10.09-09.43.05:929][ 66]BlueprintLog: New page: Compile BP_Floortile
+[2017.10.09-09.43.21:616][251]BlueprintLog: New page: Compile BP_Floortile
+[2017.10.09-09.43.27:556][715]BlueprintLog: New page: Compile BP_Floortile
+[2017.10.09-09.44.24:312][739]BlueprintLog: New page: Compile BP_Floortile
+[2017.10.09-09.44.42:737][944]BlueprintLog: New page: Compile BP_Floortile
+[2017.10.09-09.45.13:140][ 60]LogTemp: Repeting last play command: Simulate
+[2017.10.09-09.45.13:160][ 60]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.09-09.45.13:160][ 60]PIE: New page: SIE session: ProceduralMap (9 Oct 2017 11:45:13)
+[2017.10.09-09.45.13:160][ 60]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap
+[2017.10.09-09.45.13:162][ 60]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001946s)
+[2017.10.09-09.45.13:163][ 60]LogAIModule: Creating AISystem for world ProceduralMap
+[2017.10.09-09.45.13:163][ 60]LogPlayLevel: PIE: World Init took: (0.000740s)
+[2017.10.09-09.45.13:163][ 60]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ProceduralMap.ProceduralMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap (0.002886s)
+[2017.10.09-09.45.13:189][ 60]LogInit: XAudio2 using 'Speakers (Conexant HD Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.09-09.45.13:200][ 60]LogInit: FAudioDevice initialized.
+[2017.10.09-09.45.13:234][ 60]LogLoad: Game class is 'RunnerGameMode_C'
+[2017.10.09-09.45.13:236][ 60]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap up for play (max tick rate 0) at 2017.10.09-10.45.13
+[2017.10.09-09.45.13:236][ 60]LogWorld: Bringing up level for play took: 0.001241
+[2017.10.09-09.45.13:260][ 60]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap -0.228
+[2017.10.09-09.46.14:816][503]BlueprintLog: New page: Compile BP_Floortile
+[2017.10.09-09.46.46:056][ 39]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ProceduralMap' took 0.036
+[2017.10.09-09.46.46:058][ 39]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/BP_Floortile] ([1] browsable assets)...
+[2017.10.09-09.46.46:094][ 39]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/BP_Floortile.BP_Floortile]
+[2017.10.09-09.46.46:094][ 39]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/BP_Floortile]
+[2017.10.09-09.46.46:094][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_Floortile" FILE="F:/Runner1/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_Floortile_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.10.09-09.46.46:200][ 39]LogSavePackage: Save=100.15ms
+[2017.10.09-09.46.46:200][ 39]LogSavePackage: Moving 'F:/Runner1/Saved/BP_Floortile_Auto4A5607D3846A66B70746FE7BF1BF81556.tmp' to 'F:/Runner1/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_Floortile_Auto4.uasset'
+[2017.10.09-09.46.46:201][ 39]LogSavePackage:Display: Finished SavePackage F:/Runner1/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_Floortile_Auto4.uasset
+[2017.10.09-09.46.46:201][ 39]LogFileHelpers: Auto-saving content packages took 0.144
+[2017.10.09-09.50.25:920][201]BlueprintLog: New page: Compile BP_Floortile
+[2017.10.09-09.52.03:786][433]LogSlate: Took 0.021179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.10.09-09.52.09:195][766]BlueprintLog: New page: Compile RunnerCharacter
+[2017.10.09-09.52.25:339][788]BlueprintLog: New page: Compile RunnerCharacter
+[2017.10.09-09.52.26:121][820]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/RunnerCharacter" FILE="F:/Runner1/Content/ThirdPersonBP/Blueprints/RunnerCharacter.uasset" SILENT=true
+[2017.10.09-09.52.26:209][820]LogSavePackage: Save=78.74ms
+[2017.10.09-09.52.26:209][820]LogSavePackage: Moving 'F:/Runner1/Saved/RunnerCharacter1C0574564BF71EF448A49E9FA5356D37.tmp' to 'F:/Runner1/Content/ThirdPersonBP/Blueprints/RunnerCharacter.uasset'
+[2017.10.09-09.52.26:209][820]LogFileManager:Warning: DeleteFile was unable to delete 'F:/Runner1/Content/ThirdPersonBP/Blueprints/RunnerCharacter.uasset', retrying in .5s...
+[2017.10.09-09.52.26:709][820]LogFileManager:Error: Error deleting file 'F:/Runner1/Content/ThirdPersonBP/Blueprints/RunnerCharacter.uasset'.
+[2017.10.09-09.52.26:709][820]LogSavePackage:Error: Error saving 'F:/Runner1/Content/ThirdPersonBP/Blueprints/RunnerCharacter.uasset'
+[2017.10.09-09.52.26:711][820]LogSavePackage:Display: Finished SavePackage F:/Runner1/Content/ThirdPersonBP/Blueprints/RunnerCharacter.uasset
+[2017.10.09-09.52.32:176][820]EditorErrors: New page: Save Output
+[2017.10.09-09.52.32:176][820]EditorErrors:Warning: Warning Error saving 'F:/Runner1/Content/ThirdPersonBP/Blueprints/RunnerCharacter.uasset'
+[2017.10.09-09.52.51:871][894]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_31.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.09-09.52.51:871][894]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_32.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.09-09.52.51:871][894]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_30.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.09-09.52.51:871][894]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_33.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.09-09.52.51:871][894]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_34.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.09-09.52.51:871][894]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_35.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.09-09.52.53:064][973]BlueprintLog: New page: Compile BP_Items
+[2017.10.09-09.52.55:163][991]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_Items" FILE="F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Items.uasset" SILENT=true
+[2017.10.09-09.52.55:206][991]LogSavePackage: Save=28.83ms
+[2017.10.09-09.52.55:206][991]LogSavePackage: Moving 'F:/Runner1/Saved/BP_Items5AD1298A4A05705D8C07398BE1558B80.tmp' to 'F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Items.uasset'
+[2017.10.09-09.52.55:207][991]LogSavePackage:Display: Finished SavePackage F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Items.uasset
+[2017.10.09-09.54.22:338][  2]BlueprintLog: New page: Compile BP_Items
+[2017.10.09-09.54.51:651][453]BlueprintLog: New page: Compile BP_Items
+[2017.10.09-09.54.52:574][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_Items" FILE="F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Items.uasset" SILENT=true
+[2017.10.09-09.54.52:609][512]LogSavePackage: Save=31.79ms
+[2017.10.09-09.54.52:609][512]LogSavePackage: Moving 'F:/Runner1/Saved/BP_ItemsDA282E3E4782F70A7BEF1D9E7C410C7A.tmp' to 'F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Items.uasset'
+[2017.10.09-09.54.52:610][512]LogSavePackage:Display: Finished SavePackage F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Items.uasset
+[2017.10.09-09.54.57:687][953]LogTemp: Repeting last play command: Simulate
+[2017.10.09-09.54.57:708][953]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.09-09.54.57:708][953]PIE: New page: SIE session: ProceduralMap (9 Oct 2017 11:54:57)
+[2017.10.09-09.54.57:708][953]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap
+[2017.10.09-09.54.57:710][953]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001828s)
+[2017.10.09-09.54.57:711][953]LogAIModule: Creating AISystem for world ProceduralMap
+[2017.10.09-09.54.57:711][953]LogPlayLevel: PIE: World Init took: (0.000755s)
+[2017.10.09-09.54.57:711][953]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ProceduralMap.ProceduralMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap (0.002796s)
+[2017.10.09-09.54.57:729][953]LogInit: XAudio2 using 'Speakers (Conexant HD Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.09-09.54.57:739][953]LogInit: FAudioDevice initialized.
+[2017.10.09-09.54.57:767][953]LogLoad: Game class is 'RunnerGameMode_C'
+[2017.10.09-09.54.57:769][953]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap up for play (max tick rate 0) at 2017.10.09-10.54.57
+[2017.10.09-09.54.57:769][953]LogWorld: Bringing up level for play took: 0.000869
+[2017.10.09-09.54.57:780][953]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap 0.287
+[2017.10.09-09.55.02:739][309]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.09-09.55.02:739][309]PIE: New page: PIE session: ProceduralMap (9 Oct 2017 11:55:02)
+[2017.10.09-09.55.02:739][309]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap
+[2017.10.09-09.55.02:741][309]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001680s)
+[2017.10.09-09.55.02:741][309]LogAIModule: Creating AISystem for world ProceduralMap
+[2017.10.09-09.55.02:741][309]LogPlayLevel: PIE: World Init took: (0.000659s)
+[2017.10.09-09.55.02:741][309]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ProceduralMap.ProceduralMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap (0.002546s)
+[2017.10.09-09.55.02:759][309]LogInit: XAudio2 using 'Speakers (Conexant HD Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.09-09.55.02:770][309]LogInit: FAudioDevice initialized.
+[2017.10.09-09.55.02:806][309]LogLoad: Game class is 'RunnerGameMode_C'
+[2017.10.09-09.55.02:811][309]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap up for play (max tick rate 0) at 2017.10.09-10.55.02
+[2017.10.09-09.55.02:811][309]LogWorld: Bringing up level for play took: 0.002092
+[2017.10.09-09.55.02:843][309]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap -0.65
+[2017.10.09-09.55.06:126][695]Cmd: RestartLevel
+[2017.10.09-09.55.06:193][696]LogNet: Browse: /Game/ThirdPersonBP/Maps/ProceduralMap?restart
+[2017.10.09-09.55.06:195][696]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ProceduralMap
+[2017.10.09-09.55.06:254][696]Cmd: MEM
+[2017.10.09-09.55.06:272][696]LogMemory: Platform Memory Stats for Windows
+[2017.10.09-09.55.06:272][696]LogMemory: Process Physical Memory: 1966.49 MB used, 1966.53 MB peak
+[2017.10.09-09.55.06:272][696]LogMemory: Process Virtual Memory: 3137.01 MB used, 3304.18 MB peak
+[2017.10.09-09.55.06:272][696]LogMemory: Physical Memory: 7734.05 MB used,  8527.68 MB free, 16261.73 MB total
+[2017.10.09-09.55.06:272][696]LogMemory: Virtual Memory: 3817.09 MB used,  8527.68 MB free, 8388608.00 MB total
+[2017.10.09-09.55.06:272][696]LogMemory: 
+[2017.10.09-09.55.06:272][696]Allocator Stats for TBB: (not implemented)
+[2017.10.09-09.55.06:284][696]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap
+[2017.10.09-09.55.06:286][696]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001680s)
+[2017.10.09-09.55.06:286][696]LogAIModule: Creating AISystem for world ProceduralMap
+[2017.10.09-09.55.06:287][696]LogPlayLevel: PIE: World Init took: (0.000704s)
+[2017.10.09-09.55.06:287][696]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ProceduralMap.ProceduralMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap (0.002605s)
+[2017.10.09-09.55.06:287][696]LogLoad: Game class is 'RunnerGameMode_C'
+[2017.10.09-09.55.06:289][696]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap up for play (max tick rate 0) at 2017.10.09-10.55.06
+[2017.10.09-09.55.06:289][696]LogWorld: Bringing up level for play took: 0.001346
+[2017.10.09-09.55.06:311][696]LogLoad: Took 0.116023 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap)
+[2017.10.09-09.55.12:947][488]LogAudio:Warning: Detected orphaned looping sound 'Steam01'.
+[2017.10.09-09.55.13:064][502]LogAudio:Warning: Detected orphaned looping sound 'Steam01'.
+[2017.10.09-09.55.21:469][247]BlueprintLog: New page: Compile BP_Items
+[2017.10.09-09.57.13:491][774]BlueprintLog: New page: Compile BP_Floortile
+[2017.10.09-09.57.52:518][533]BlueprintLog: New page: Compile BP_Floortile
+[2017.10.09-09.57.52:535][533]LogClass:Warning: Type mismatch in SpawnItemPoint of BP_Floortile_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
+[2017.10.09-09.57.53:282][557]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_Floortile" FILE="F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Floortile.uasset" SILENT=true
+[2017.10.09-09.57.53:383][557]LogSavePackage: Save=91.54ms
+[2017.10.09-09.57.53:383][557]LogSavePackage: Moving 'F:/Runner1/Saved/BP_Floortile327D36C345DCD905B9F4E8A82D98FF4F.tmp' to 'F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Floortile.uasset'
+[2017.10.09-09.57.53:384][557]LogSavePackage:Display: Finished SavePackage F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Floortile.uasset
+[2017.10.09-09.57.55:347][721]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.09-09.57.55:367][721]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.09-09.57.55:367][721]PIE: New page: PIE session: ProceduralMap (9 Oct 2017 11:57:55)
+[2017.10.09-09.57.55:367][721]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap
+[2017.10.09-09.57.55:369][721]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001688s)
+[2017.10.09-09.57.55:370][721]LogAIModule: Creating AISystem for world ProceduralMap
+[2017.10.09-09.57.55:370][721]LogPlayLevel: PIE: World Init took: (0.000671s)
+[2017.10.09-09.57.55:370][721]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ProceduralMap.ProceduralMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap (0.002548s)
+[2017.10.09-09.57.55:393][721]LogInit: XAudio2 using 'Speakers (Conexant HD Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.09-09.57.55:404][721]LogInit: FAudioDevice initialized.
+[2017.10.09-09.57.55:434][721]LogLoad: Game class is 'RunnerGameMode_C'
+[2017.10.09-09.57.55:436][721]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap up for play (max tick rate 0) at 2017.10.09-10.57.55
+[2017.10.09-09.57.55:436][721]LogWorld: Bringing up level for play took: 0.000867
+[2017.10.09-09.57.55:448][721]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap -0.047
+[2017.10.09-09.58.22:392][928]LogEditorTransaction: Undo Move Node
+[2017.10.09-09.58.22:595][939]LogEditorTransaction: Undo Move Nodes
+[2017.10.09-09.58.22:728][944]LogEditorTransaction: Undo Delete current selection
+[2017.10.09-09.58.22:741][944]LogClass:Warning: Type mismatch in SpawnItemPoint of BP_Floortile_C - Previous (StructProperty) Current(ArrayProperty) for package:  FArchive
+[2017.10.09-09.58.22:748][944]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Obstacles_C_CHILDACTOR_45
+[2017.10.09-09.58.22:879][949]LogEditorTransaction: Undo Delete current selection
+[2017.10.09-09.58.22:884][949]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Obstacles_C_CHILDACTOR_51
+[2017.10.09-09.58.22:999][953]LogEditorTransaction: Undo Delete current selection
+[2017.10.09-09.58.23:001][953]LogClass:Warning: Type mismatch in SpawnItemPoint of BP_Floortile_C - Previous (StructProperty) Current(ArrayProperty) for package:  FArchive
+[2017.10.09-09.58.23:161][961]LogEditorTransaction: Undo Create Pin Link
+[2017.10.09-09.58.23:166][961]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Obstacles_C_CHILDACTOR_56
+[2017.10.09-09.58.23:347][971]LogEditorTransaction: Undo Create Pin Link
+[2017.10.09-09.58.23:584][983]LogEditorTransaction: Undo Add Node
+[2017.10.09-09.58.24:865][ 76]LogEditorTransaction: Undo Delete current selection
+[2017.10.09-09.58.25:128][ 90]LogEditorTransaction: Undo Add Node
+[2017.10.09-09.58.25:133][ 90]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Obstacles_C_CHILDACTOR_66
+[2017.10.09-09.58.40:840][294]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Obstacles_C_CHILDACTOR_79
+[2017.10.09-09.58.47:771][803]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Obstacles_C_CHILDACTOR_85
+[2017.10.09-09.58.58:027][568]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Obstacles_C_CHILDACTOR_91
+[2017.10.09-09.59.02:597][950]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Obstacles_C_CHILDACTOR_96
+[2017.10.09-09.59.20:572][423]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Obstacles_C_CHILDACTOR_103
+[2017.10.09-09.59.23:408][638]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Obstacles_C_CHILDACTOR_109
+[2017.10.09-09.59.24:413][713]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Obstacles_C_CHILDACTOR_115
+[2017.10.09-09.59.30:530][192]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Obstacles_C_CHILDACTOR_120
+[2017.10.09-09.59.36:861][659]BlueprintLog: New page: Compile BP_Floortile
+[2017.10.09-09.59.36:892][659]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.REINST_BP_Floortile_C_0
+[2017.10.09-09.59.37:313][659]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Obstacles_C_CHILDACTOR_127
+[2017.10.09-09.59.37:826][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_Floortile" FILE="F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Floortile.uasset" SILENT=true
+[2017.10.09-09.59.37:912][689]LogSavePackage: Save=82.20ms
+[2017.10.09-09.59.37:912][689]LogSavePackage: Moving 'F:/Runner1/Saved/BP_FloortileF51D90024D308B8792CF0D95CEAAF2E1.tmp' to 'F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Floortile.uasset'
+[2017.10.09-09.59.37:914][689]LogSavePackage:Display: Finished SavePackage F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Floortile.uasset
+[2017.10.09-10.00.12:865][382]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Obstacles_C_CHILDACTOR_135
+[2017.10.09-10.00.12:886][382]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Obstacles_C_CHILDACTOR_138
+[2017.10.09-10.00.12:905][382]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Obstacles_C_CHILDACTOR_142
+[2017.10.09-10.00.20:802][ 18]BlueprintLog: New page: Compile BP_Floortile
+[2017.10.09-10.00.20:833][ 18]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_162
+[2017.10.09-10.00.20:833][ 18]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_163
+[2017.10.09-10.00.20:834][ 18]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_164
+[2017.10.09-10.00.20:834][ 18]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_165
+[2017.10.09-10.00.20:835][ 18]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_166
+[2017.10.09-10.00.20:835][ 18]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_167
+[2017.10.09-10.00.20:966][ 18]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Obstacles_C_CHILDACTOR_147
+[2017.10.09-10.00.45:767][ 61]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ProceduralMap' took 0.016
+[2017.10.09-10.00.45:769][ 61]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/RunnerCharacter] ([1] browsable assets)...
+[2017.10.09-10.00.45:769][ 61]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/RunnerCharacter]
+[2017.10.09-10.00.45:769][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/RunnerCharacter" FILE="F:/Runner1/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/RunnerCharacter_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.10.09-10.00.45:844][ 61]LogSavePackage: Save=67.67ms
+[2017.10.09-10.00.45:844][ 61]LogSavePackage: Moving 'F:/Runner1/Saved/RunnerCharacter_Auto5D748408A436E704A050089B9F4DA38A3.tmp' to 'F:/Runner1/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/RunnerCharacter_Auto5.uasset'
+[2017.10.09-10.00.45:956][ 61]LogSavePackage:Display: Finished SavePackage F:/Runner1/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/RunnerCharacter_Auto5.uasset
+[2017.10.09-10.00.45:957][ 61]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/BP_Floortile] ([1] browsable assets)...
+[2017.10.09-10.00.45:996][ 61]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/BP_Floortile.BP_Floortile]
+[2017.10.09-10.00.45:996][ 61]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/BP_Floortile]
+[2017.10.09-10.00.45:998][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_Floortile" FILE="F:/Runner1/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_Floortile_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.10.09-10.00.46:093][ 61]LogSavePackage: Save=90.97ms
+[2017.10.09-10.00.46:093][ 61]LogSavePackage: Moving 'F:/Runner1/Saved/BP_Floortile_Auto557D862ED4ACE97F1254536AACAC0B3EA.tmp' to 'F:/Runner1/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_Floortile_Auto5.uasset'
+[2017.10.09-10.00.46:095][ 61]LogSavePackage:Display: Finished SavePackage F:/Runner1/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_Floortile_Auto5.uasset
+[2017.10.09-10.00.46:096][ 61]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/BP_Items] ([1] browsable assets)...
+[2017.10.09-10.00.46:111][ 61]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/BP_Items.BP_Items]
+[2017.10.09-10.00.46:111][ 61]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/BP_Items]
+[2017.10.09-10.00.46:111][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_Items" FILE="F:/Runner1/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_Items_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.10.09-10.00.46:164][ 61]LogSavePackage: Save=36.20ms
+[2017.10.09-10.00.46:164][ 61]LogSavePackage: Moving 'F:/Runner1/Saved/BP_Items_Auto534D5512E47980C9CEBBEF59BABF46416.tmp' to 'F:/Runner1/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_Items_Auto5.uasset'
+[2017.10.09-10.00.46:165][ 61]LogSavePackage:Display: Finished SavePackage F:/Runner1/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_Items_Auto5.uasset
+[2017.10.09-10.00.46:165][ 61]LogFileHelpers: Auto-saving content packages took 0.397
+[2017.10.09-10.01.34:690][134]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.09-10.01.34:706][134]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.09-10.01.34:706][134]PIE: New page: PIE session: ProceduralMap (9 Oct 2017 12:01:34)
+[2017.10.09-10.01.34:706][134]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap
+[2017.10.09-10.01.34:708][134]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001710s)
+[2017.10.09-10.01.34:709][134]LogAIModule: Creating AISystem for world ProceduralMap
+[2017.10.09-10.01.34:709][134]LogPlayLevel: PIE: World Init took: (0.000744s)
+[2017.10.09-10.01.34:709][134]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ProceduralMap.ProceduralMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap (0.002648s)
+[2017.10.09-10.01.34:727][134]LogInit: XAudio2 using 'Speakers (Conexant HD Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.09-10.01.34:737][134]LogInit: FAudioDevice initialized.
+[2017.10.09-10.01.34:767][134]LogLoad: Game class is 'RunnerGameMode_C'
+[2017.10.09-10.01.34:769][134]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap up for play (max tick rate 0) at 2017.10.09-11.01.34
+[2017.10.09-10.01.34:769][134]LogWorld: Bringing up level for play took: 0.000902
+[2017.10.09-10.01.34:781][134]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap -0.717
+[2017.10.09-10.03.14:470][867]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Obstacles_C_CHILDACTOR_155
+[2017.10.09-10.03.15:512][948]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Obstacles_C_CHILDACTOR_161
+[2017.10.09-10.03.18:205][169]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Obstacles_C_CHILDACTOR_167
+[2017.10.09-10.03.24:102][390]BlueprintLog: New page: Compile BP_Floortile
+[2017.10.09-10.03.24:134][390]LogBlueprint:Error: [Compiler BP_Floortile] Error Could not find a function named "SpawnItems" in 'BP_Floortile_C'.
+Make sure 'BP_Floortile_C' has been compiled for  Spawn Items
+[2017.10.09-10.03.24:145][390]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Obstacles_C_CHILDACTOR_173
+[2017.10.09-10.03.24:146][390]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.REINST_BP_Floortile_C_0
+[2017.10.09-10.03.24:438][390]BlueprintEditorCompileResults:Error: Error Could not find a function named "SpawnItems" in 'BP_Floortile_C'.
+Make sure 'BP_Floortile_C' has been compiled for  Spawn Items
+[2017.10.09-10.03.24:438][390]LogBlueprint:Warning: [Compiler BP_Floortile] Warning [7170.84] Compile of BP_Floortile failed. 1 Fatal Issue(s) 0 Warning(s) [in 336 ms] (/Game/ThirdPersonBP/Blueprints/BP_Floortile.BP_Floortile)
+[2017.10.09-10.04.05:737][770]BlueprintLog: New page: Compile BP_Floortile
+[2017.10.09-10.04.05:876][770]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Obstacles_C_CHILDACTOR_177
+[2017.10.09-10.04.16:869][560]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Obstacles_C_CHILDACTOR_183
+[2017.10.09-10.04.19:597][788]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Obstacles_C_CHILDACTOR_189
+[2017.10.09-10.04.30:560][656]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.10.09-10.04.32:096][764]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Obstacles_C_CHILDACTOR_195
+[2017.10.09-10.05.17:173][248]BlueprintLog: New page: Compile BP_Floortile
+[2017.10.09-10.05.17:199][248]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Obstacles_C_CHILDACTOR_201
+[2017.10.09-10.05.17:721][276]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_Floortile" FILE="F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Floortile.uasset" SILENT=true
+[2017.10.09-10.05.17:806][276]LogSavePackage: Save=76.94ms
+[2017.10.09-10.05.17:806][276]LogSavePackage: Moving 'F:/Runner1/Saved/BP_FloortileFF9A7BE5408BFF19C8CA03A1193C7ED5.tmp' to 'F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Floortile.uasset'
+[2017.10.09-10.05.17:811][276]LogSavePackage:Display: Finished SavePackage F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Floortile.uasset
+[2017.10.09-10.05.50:146][653]BlueprintLog: New page: Compile BP_Floortile
+[2017.10.09-10.05.50:290][653]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Obstacles_C_CHILDACTOR_234
+[2017.10.09-10.06.35:150][928]BlueprintLog: New page: Compile BP_Floortile
+[2017.10.09-10.06.35:172][928]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Obstacles_C_CHILDACTOR_271
+[2017.10.09-10.06.35:308][928]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_184
+[2017.10.09-10.07.31:941][788]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_312
+[2017.10.09-10.07.31:948][788]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_318
+[2017.10.09-10.07.33:269][873]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_394
+[2017.10.09-10.07.33:273][873]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_398
+[2017.10.09-10.07.34:719][975]LogEditorTransaction: Undo Set Vector Property
+[2017.10.09-10.07.34:720][975]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_407
+[2017.10.09-10.07.35:361][ 16]LogEditorTransaction: Undo Set Vector Property
+[2017.10.09-10.07.35:363][ 16]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_412
+[2017.10.09-10.07.36:837][125]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_418
+[2017.10.09-10.07.36:839][125]LogScript:Warning: Accessed None trying to read property ItemArea
+	BP_Floortile_C /Engine/Transient.World_13:PersistentLevel.BP_Floortile_C_33
+	Function /Game/ThirdPersonBP/Blueprints/BP_Floortile.BP_Floortile_C:SpawnItem:0027
+[2017.10.09-10.07.36:839][125]LogScript:Warning: Accessed None trying to read property ItemArea
+	BP_Floortile_C /Engine/Transient.World_13:PersistentLevel.BP_Floortile_C_33
+	Function /Game/ThirdPersonBP/Blueprints/BP_Floortile.BP_Floortile_C:SpawnItem:0046
+[2017.10.09-10.07.36:841][125]LogScript:Warning: Accessed None trying to read property ItemArea
+	BP_Floortile_C /Engine/Transient.World_2:PersistentLevel.BP_Floortile_C_0
+	Function /Game/ThirdPersonBP/Blueprints/BP_Floortile.BP_Floortile_C:SpawnItem:0027
+[2017.10.09-10.07.36:841][125]LogScript:Warning: Accessed None trying to read property ItemArea
+	BP_Floortile_C /Engine/Transient.World_2:PersistentLevel.BP_Floortile_C_0
+	Function /Game/ThirdPersonBP/Blueprints/BP_Floortile.BP_Floortile_C:SpawnItem:0046
+[2017.10.09-10.07.36:843][125]LogScript:Warning: Accessed None trying to read property ItemArea
+	BP_Floortile_C /Engine/Transient.World_15:PersistentLevel.BP_Floortile_C_93
+	Function /Game/ThirdPersonBP/Blueprints/BP_Floortile.BP_Floortile_C:SpawnItem:0027
+[2017.10.09-10.07.36:843][125]LogScript:Warning: Accessed None trying to read property ItemArea
+	BP_Floortile_C /Engine/Transient.World_15:PersistentLevel.BP_Floortile_C_93
+	Function /Game/ThirdPersonBP/Blueprints/BP_Floortile.BP_Floortile_C:SpawnItem:0046
+[2017.10.09-10.07.36:905][125]LogScript:Warning: Accessed None trying to read property ItemArea
+	BP_Floortile_C /Engine/Transient.World_15:PersistentLevel.BP_Floortile_C_93
+	Function /Game/ThirdPersonBP/Blueprints/BP_Floortile.BP_Floortile_C:SpawnItem:0027
+[2017.10.09-10.07.36:905][125]LogScript:Warning: Accessed None trying to read property ItemArea
+	BP_Floortile_C /Engine/Transient.World_15:PersistentLevel.BP_Floortile_C_93
+	Function /Game/ThirdPersonBP/Blueprints/BP_Floortile.BP_Floortile_C:SpawnItem:0046
+[2017.10.09-10.07.39:614][341]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_426
+[2017.10.09-10.07.39:616][341]LogScript:Warning: Accessed None trying to read property ItemArea
+	BP_Floortile_C /Engine/Transient.World_13:PersistentLevel.BP_Floortile_C_33
+	Function /Game/ThirdPersonBP/Blueprints/BP_Floortile.BP_Floortile_C:SpawnItem:0027
+[2017.10.09-10.07.39:616][341]LogScript:Warning: Accessed None trying to read property ItemArea
+	BP_Floortile_C /Engine/Transient.World_13:PersistentLevel.BP_Floortile_C_33
+	Function /Game/ThirdPersonBP/Blueprints/BP_Floortile.BP_Floortile_C:SpawnItem:0046
+[2017.10.09-10.07.39:618][341]LogScript:Warning: Accessed None trying to read property ItemArea
+	BP_Floortile_C /Engine/Transient.World_2:PersistentLevel.BP_Floortile_C_0
+	Function /Game/ThirdPersonBP/Blueprints/BP_Floortile.BP_Floortile_C:SpawnItem:0027
+[2017.10.09-10.07.39:618][341]LogScript:Warning: Accessed None trying to read property ItemArea
+	BP_Floortile_C /Engine/Transient.World_2:PersistentLevel.BP_Floortile_C_0
+	Function /Game/ThirdPersonBP/Blueprints/BP_Floortile.BP_Floortile_C:SpawnItem:0046
+[2017.10.09-10.07.39:621][341]LogScript:Warning: Accessed None trying to read property ItemArea
+	BP_Floortile_C /Engine/Transient.World_15:PersistentLevel.BP_Floortile_C_93
+	Function /Game/ThirdPersonBP/Blueprints/BP_Floortile.BP_Floortile_C:SpawnItem:0027
+[2017.10.09-10.07.39:621][341]LogScript:Warning: Accessed None trying to read property ItemArea
+	BP_Floortile_C /Engine/Transient.World_15:PersistentLevel.BP_Floortile_C_93
+	Function /Game/ThirdPersonBP/Blueprints/BP_Floortile.BP_Floortile_C:SpawnItem:0046
+[2017.10.09-10.07.39:658][341]LogScript:Warning: Accessed None trying to read property ItemArea
+	BP_Floortile_C /Engine/Transient.World_15:PersistentLevel.BP_Floortile_C_93
+	Function /Game/ThirdPersonBP/Blueprints/BP_Floortile.BP_Floortile_C:SpawnItem:0027
+[2017.10.09-10.07.39:658][341]LogScript:Warning: Accessed None trying to read property ItemArea
+	BP_Floortile_C /Engine/Transient.World_15:PersistentLevel.BP_Floortile_C_93
+	Function /Game/ThirdPersonBP/Blueprints/BP_Floortile.BP_Floortile_C:SpawnItem:0046
+[2017.10.09-10.07.43:144][589]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_434
+[2017.10.09-10.07.57:954][623]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_554
+[2017.10.09-10.07.57:956][623]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_556
+[2017.10.09-10.07.59:947][764]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_568
+[2017.10.09-10.07.59:949][764]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_570
+[2017.10.09-10.08.03:004][979]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_578
+[2017.10.09-10.08.03:011][979]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_584
+[2017.10.09-10.08.11:626][521]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_1062
+[2017.10.09-10.08.11:632][521]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_1068
+[2017.10.09-10.08.12:843][606]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_1076
+[2017.10.09-10.08.12:850][606]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_1082
+[2017.10.09-10.08.24:316][407]BlueprintLog: New page: Compile BP_Floortile
+[2017.10.09-10.08.24:358][407]LogBlueprint:Error: [Compiler BP_Floortile] Error This blueprint (self) is not a BoxComponent, therefore ' Target ' must have a connection.
+[2017.10.09-10.08.24:359][407]LogBlueprint:Error: [Compiler BP_Floortile] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.10.09-10.08.24:359][407]LogBlueprint:Error: [Compiler BP_Floortile] Error Variable node  Get RelativeLocation  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.10.09-10.08.24:359][407]LogBlueprint:Error: [Compiler BP_Floortile] Error Variable node  Get BoxExtent  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.10.09-10.08.24:629][407]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_1156
+[2017.10.09-10.08.24:637][407]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a BoxComponent, therefore ' Target ' must have a connection.
+[2017.10.09-10.08.24:637][407]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.10.09-10.08.24:637][407]BlueprintEditorCompileResults:Error: Error Variable node  Get RelativeLocation  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.10.09-10.08.24:637][407]BlueprintEditorCompileResults:Error: Error Variable node  Get BoxExtent  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.10.09-10.08.24:637][407]LogBlueprint:Warning: [Compiler BP_Floortile] Warning [7471.04] Compile of BP_Floortile failed. 4 Fatal Issue(s) 0 Warning(s) [in 321 ms] (/Game/ThirdPersonBP/Blueprints/BP_Floortile.BP_Floortile)
+[2017.10.09-10.08.37:785][363]BlueprintLog: New page: Compile BP_Floortile
+[2017.10.09-10.08.37:805][363]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_1160
+[2017.10.09-10.08.37:924][363]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_1165
+[2017.10.09-10.08.38:446][396]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_Floortile" FILE="F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Floortile.uasset" SILENT=true
+[2017.10.09-10.08.38:543][396]LogSavePackage: Save=92.11ms
+[2017.10.09-10.08.38:543][396]LogSavePackage: Moving 'F:/Runner1/Saved/BP_FloortileFA44B04749A4756E4DC542B870C1DB68.tmp' to 'F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Floortile.uasset'
+[2017.10.09-10.08.38:545][396]LogSavePackage:Display: Finished SavePackage F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Floortile.uasset
+[2017.10.09-10.08.46:289][987]BlueprintLog: New page: Compile BP_Floortile
+[2017.10.09-10.08.46:309][987]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_1171
+[2017.10.09-10.08.46:420][987]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_1177
+[2017.10.09-10.08.53:360][497]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_1317
+[2017.10.09-10.08.53:363][497]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_1319
+[2017.10.09-10.08.53:903][535]LogEditorTransaction: Undo Set Vector Property
+[2017.10.09-10.08.53:905][535]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_1327
+[2017.10.09-10.08.59:400][904]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_1545
+[2017.10.09-10.08.59:402][904]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_1547
+[2017.10.09-10.09.01:029][ 19]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_1557
+[2017.10.09-10.09.01:033][ 19]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_1561
+[2017.10.09-10.09.03:316][179]BlueprintLog: New page: Compile BP_Floortile
+[2017.10.09-10.09.03:336][179]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_1569
+[2017.10.09-10.09.03:472][179]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_1575
+[2017.10.09-10.09.14:737][962]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_1655
+[2017.10.09-10.09.14:739][962]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_1657
+[2017.10.09-10.09.20:776][386]BlueprintLog: New page: Compile BP_Floortile
+[2017.10.09-10.09.20:796][386]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_1693
+[2017.10.09-10.09.20:918][386]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_1699
+[2017.10.09-10.09.21:328][407]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_Floortile" FILE="F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Floortile.uasset" SILENT=true
+[2017.10.09-10.09.21:399][407]LogSavePackage: Save=68.01ms
+[2017.10.09-10.09.21:399][407]LogSavePackage: Moving 'F:/Runner1/Saved/BP_Floortile5AD7D05C40D6C0906EA7C7BE6B05693E.tmp' to 'F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Floortile.uasset'
+[2017.10.09-10.09.21:403][407]LogSavePackage:Display: Finished SavePackage F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Floortile.uasset
+[2017.10.09-10.09.28:967][623]BlueprintLog: New page: Compile BP_Floortile
+[2017.10.09-10.09.29:007][623]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_1707
+[2017.10.09-10.09.29:129][623]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_1713
+[2017.10.09-10.09.29:301][629]BlueprintLog: New page: Compile BP_Floortile
+[2017.10.09-10.09.29:322][629]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_1721
+[2017.10.09-10.09.29:441][629]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_1727
+[2017.10.09-10.09.38:040][191]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_1735
+[2017.10.09-10.10.56:767][468]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ProceduralMap' took 0.028
+[2017.10.09-10.10.56:768][468]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/BP_Floortile] ([1] browsable assets)...
+[2017.10.09-10.10.56:810][468]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/BP_Floortile.BP_Floortile]
+[2017.10.09-10.10.56:810][468]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/BP_Floortile]
+[2017.10.09-10.10.56:810][468]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_Floortile" FILE="F:/Runner1/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_Floortile_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2017.10.09-10.10.56:906][468]LogSavePackage: Save=84.77ms
+[2017.10.09-10.10.56:906][468]LogSavePackage: Moving 'F:/Runner1/Saved/BP_Floortile_Auto616E29CCD4B0228CC7F462EAB7D3765DD.tmp' to 'F:/Runner1/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_Floortile_Auto6.uasset'
+[2017.10.09-10.10.56:907][468]LogSavePackage:Display: Finished SavePackage F:/Runner1/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_Floortile_Auto6.uasset
+[2017.10.09-10.10.56:907][468]LogFileHelpers: Auto-saving content packages took 0.140
+[2017.10.09-10.15.46:469][539]BlueprintLog: New page: Compile BP_Floortile
+[2017.10.09-10.15.46:491][539]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_1741
+[2017.10.09-10.15.46:608][539]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_1747
+[2017.10.09-10.15.47:063][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_Floortile" FILE="F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Floortile.uasset" SILENT=true
+[2017.10.09-10.15.47:138][569]LogSavePackage: Save=71.17ms
+[2017.10.09-10.15.47:138][569]LogSavePackage: Moving 'F:/Runner1/Saved/BP_Floortile8A98E0E8442C784B56E0F98BDB1C55A5.tmp' to 'F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Floortile.uasset'
+[2017.10.09-10.15.47:139][569]LogSavePackage:Display: Finished SavePackage F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Floortile.uasset
+[2017.10.09-10.16.36:550][163]BlueprintLog: New page: Compile BP_Floortile
+[2017.10.09-10.16.36:573][163]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_1785
+[2017.10.09-10.16.36:703][163]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Obstacles_C_CHILDACTOR_274
+[2017.10.09-10.16.37:162][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_Floortile" FILE="F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Floortile.uasset" SILENT=true
+[2017.10.09-10.16.37:257][195]LogSavePackage: Save=87.93ms
+[2017.10.09-10.16.37:257][195]LogSavePackage: Moving 'F:/Runner1/Saved/BP_Floortile39A2507540D8B8C92D39978134B00715.tmp' to 'F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Floortile.uasset'
+[2017.10.09-10.16.37:260][195]LogSavePackage:Display: Finished SavePackage F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Floortile.uasset
+[2017.10.09-10.16.56:312][776]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.09-10.16.56:332][776]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.09-10.16.56:333][776]PIE: New page: PIE session: ProceduralMap (9 Oct 2017 12:16:56)
+[2017.10.09-10.16.56:333][776]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap
+[2017.10.09-10.16.56:334][776]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001733s)
+[2017.10.09-10.16.56:335][776]LogAIModule: Creating AISystem for world ProceduralMap
+[2017.10.09-10.16.56:335][776]LogPlayLevel: PIE: World Init took: (0.000739s)
+[2017.10.09-10.16.56:335][776]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ProceduralMap.ProceduralMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap (0.002704s)
+[2017.10.09-10.16.56:354][776]LogInit: XAudio2 using 'Speakers (Conexant HD Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.09-10.16.56:365][776]LogInit: FAudioDevice initialized.
+[2017.10.09-10.16.56:394][776]LogLoad: Game class is 'RunnerGameMode_C'
+[2017.10.09-10.16.56:396][776]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap up for play (max tick rate 0) at 2017.10.09-11.16.56
+[2017.10.09-10.16.56:396][776]LogWorld: Bringing up level for play took: 0.000865
+[2017.10.09-10.16.56:408][776]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap 0.901
+[2017.10.09-10.17.40:266][961]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_13, Actor: /Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_1802
+[2017.10.09-10.17.40:273][961]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.DESTROYED_BP_Items_C_CHILDACTOR_1802.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.10.09-10.18.25:129][914]BlueprintLog: New page: Compile RunnerCharacter
+[2017.10.09-10.18.42:872][257]BlueprintLog: New page: Compile RunnerCharacter
+[2017.10.09-10.19.18:414][269]BlueprintLog: New page: Compile BP_Items
+[2017.10.09-10.19.19:130][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_Items" FILE="F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Items.uasset" SILENT=true
+[2017.10.09-10.19.19:160][317]LogSavePackage: Save=23.04ms
+[2017.10.09-10.19.19:160][317]LogSavePackage: Moving 'F:/Runner1/Saved/BP_ItemsA10BADDD4748E2330DF34DA1A680DAF1.tmp' to 'F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Items.uasset'
+[2017.10.09-10.19.19:164][317]LogSavePackage:Display: Finished SavePackage F:/Runner1/Content/ThirdPersonBP/Blueprints/BP_Items.uasset
+[2017.10.09-10.19.52:584][305]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.09-10.19.52:604][305]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.09-10.19.52:604][305]PIE: New page: PIE session: ProceduralMap (9 Oct 2017 12:19:52)
+[2017.10.09-10.19.52:604][305]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap
+[2017.10.09-10.19.52:606][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001701s)
+[2017.10.09-10.19.52:607][305]LogAIModule: Creating AISystem for world ProceduralMap
+[2017.10.09-10.19.52:607][305]LogPlayLevel: PIE: World Init took: (0.000710s)
+[2017.10.09-10.19.52:607][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ProceduralMap.ProceduralMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap (0.002625s)
+[2017.10.09-10.19.52:629][305]LogInit: XAudio2 using 'Speakers (Conexant HD Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.09-10.19.52:639][305]LogInit: FAudioDevice initialized.
+[2017.10.09-10.19.52:669][305]LogLoad: Game class is 'RunnerGameMode_C'
+[2017.10.09-10.19.52:672][305]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap up for play (max tick rate 0) at 2017.10.09-11.19.52
+[2017.10.09-10.19.52:673][305]LogWorld: Bringing up level for play took: 0.001753
+[2017.10.09-10.19.52:700][305]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap -0.809
+[2017.10.09-10.20.04:546][721]Cmd: RestartLevel
+[2017.10.09-10.20.04:554][722]LogNet: Browse: /Game/ThirdPersonBP/Maps/ProceduralMap?restart
+[2017.10.09-10.20.04:554][722]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ProceduralMap
+[2017.10.09-10.20.04:581][722]Cmd: MEM
+[2017.10.09-10.20.04:594][722]LogMemory: Platform Memory Stats for Windows
+[2017.10.09-10.20.04:594][722]LogMemory: Process Physical Memory: 2224.45 MB used, 2226.46 MB peak
+[2017.10.09-10.20.04:594][722]LogMemory: Process Virtual Memory: 3422.30 MB used, 3451.60 MB peak
+[2017.10.09-10.20.04:594][722]LogMemory: Physical Memory: 8082.55 MB used,  8179.18 MB free, 16261.73 MB total
+[2017.10.09-10.20.04:594][722]LogMemory: Virtual Memory: 4107.97 MB used,  8179.18 MB free, 8388608.00 MB total
+[2017.10.09-10.20.04:594][722]LogMemory: 
+[2017.10.09-10.20.04:594][722]Allocator Stats for TBB: (not implemented)
+[2017.10.09-10.20.04:594][722]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap
+[2017.10.09-10.20.04:596][722]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001520s)
+[2017.10.09-10.20.04:596][722]LogAIModule: Creating AISystem for world ProceduralMap
+[2017.10.09-10.20.04:596][722]LogPlayLevel: PIE: World Init took: (0.000661s)
+[2017.10.09-10.20.04:596][722]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ProceduralMap.ProceduralMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap (0.002374s)
+[2017.10.09-10.20.04:596][722]LogLoad: Game class is 'RunnerGameMode_C'
+[2017.10.09-10.20.04:599][722]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap up for play (max tick rate 0) at 2017.10.09-11.20.04
+[2017.10.09-10.20.04:599][722]LogWorld: Bringing up level for play took: 0.001609
+[2017.10.09-10.20.04:613][722]LogLoad: Took 0.059523 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap)
+[2017.10.09-10.21.40:913][602]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ProceduralMap' took 0.034
+[2017.10.09-10.21.40:915][602]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/RunnerCharacter] ([1] browsable assets)...
+[2017.10.09-10.21.40:955][602]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/RunnerCharacter.RunnerCharacter]
+[2017.10.09-10.21.40:955][602]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/RunnerCharacter]
+[2017.10.09-10.21.40:955][602]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/RunnerCharacter" FILE="F:/Runner1/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/RunnerCharacter_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2017.10.09-10.21.41:102][602]LogSavePackage: Save=133.78ms
+[2017.10.09-10.21.41:102][602]LogSavePackage: Moving 'F:/Runner1/Saved/RunnerCharacter_Auto78B347952418B7563A6B0BFB726293B9E.tmp' to 'F:/Runner1/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/RunnerCharacter_Auto7.uasset'
+[2017.10.09-10.21.41:107][602]LogSavePackage:Display: Finished SavePackage F:/Runner1/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/RunnerCharacter_Auto7.uasset
+[2017.10.09-10.21.41:107][602]LogFileHelpers: Auto-saving content packages took 0.192
+[2017.10.09-10.22.34:171][762]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.09-10.22.34:202][762]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.09-10.22.34:202][762]PIE: New page: PIE session: ProceduralMap (9 Oct 2017 12:22:34)
+[2017.10.09-10.22.34:202][762]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap
+[2017.10.09-10.22.34:205][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002638s)
+[2017.10.09-10.22.34:206][762]LogAIModule: Creating AISystem for world ProceduralMap
+[2017.10.09-10.22.34:206][762]LogPlayLevel: PIE: World Init took: (0.001127s)
+[2017.10.09-10.22.34:206][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ProceduralMap.ProceduralMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap (0.004036s)
+[2017.10.09-10.22.34:238][762]LogInit: XAudio2 using 'Speakers (Conexant HD Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.09-10.22.34:264][762]LogInit: FAudioDevice initialized.
+[2017.10.09-10.22.34:298][762]LogLoad: Game class is 'RunnerGameMode_C'
+[2017.10.09-10.22.34:302][762]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap up for play (max tick rate 0) at 2017.10.09-11.22.34
+[2017.10.09-10.22.34:302][762]LogWorld: Bringing up level for play took: 0.001732
+[2017.10.09-10.22.34:332][762]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap 0.82
+[2017.10.09-10.23.44:173][138]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.09-10.23.44:194][138]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.09-10.23.44:195][138]PIE: New page: PIE session: ProceduralMap (9 Oct 2017 12:23:44)
+[2017.10.09-10.23.44:195][138]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap
+[2017.10.09-10.23.44:197][138]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002310s)
+[2017.10.09-10.23.44:198][138]LogAIModule: Creating AISystem for world ProceduralMap
+[2017.10.09-10.23.44:198][138]LogPlayLevel: PIE: World Init took: (0.000799s)
+[2017.10.09-10.23.44:198][138]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ProceduralMap.ProceduralMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap (0.003345s)
+[2017.10.09-10.23.44:218][138]LogInit: XAudio2 using 'Speakers (Conexant HD Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.09-10.23.44:229][138]LogInit: FAudioDevice initialized.
+[2017.10.09-10.23.44:258][138]LogLoad: Game class is 'RunnerGameMode_C'
+[2017.10.09-10.23.44:260][138]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap up for play (max tick rate 0) at 2017.10.09-11.23.44
+[2017.10.09-10.23.44:260][138]LogWorld: Bringing up level for play took: 0.001530
+[2017.10.09-10.23.44:275][138]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap 0.762
+[2017.10.09-10.23.48:914][579]Cmd: RestartLevel
+[2017.10.09-10.23.48:922][580]LogNet: Browse: /Game/ThirdPersonBP/Maps/ProceduralMap?restart
+[2017.10.09-10.23.48:922][580]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ProceduralMap
+[2017.10.09-10.23.48:940][580]Cmd: MEM
+[2017.10.09-10.23.48:953][580]LogMemory: Platform Memory Stats for Windows
+[2017.10.09-10.23.48:953][580]LogMemory: Process Physical Memory: 2224.57 MB used, 2226.46 MB peak
+[2017.10.09-10.23.48:953][580]LogMemory: Process Virtual Memory: 3148.85 MB used, 3514.60 MB peak
+[2017.10.09-10.23.48:953][580]LogMemory: Physical Memory: 7916.93 MB used,  8344.80 MB free, 16261.73 MB total
+[2017.10.09-10.23.48:953][580]LogMemory: Virtual Memory: 3825.47 MB used,  8344.80 MB free, 8388608.00 MB total
+[2017.10.09-10.23.48:953][580]LogMemory: 
+[2017.10.09-10.23.48:953][580]Allocator Stats for TBB: (not implemented)
+[2017.10.09-10.23.48:953][580]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap
+[2017.10.09-10.23.48:955][580]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001511s)
+[2017.10.09-10.23.48:956][580]LogAIModule: Creating AISystem for world ProceduralMap
+[2017.10.09-10.23.48:956][580]LogPlayLevel: PIE: World Init took: (0.000659s)
+[2017.10.09-10.23.48:956][580]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ProceduralMap.ProceduralMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap (0.002363s)
+[2017.10.09-10.23.48:956][580]LogLoad: Game class is 'RunnerGameMode_C'
+[2017.10.09-10.23.48:957][580]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap up for play (max tick rate 0) at 2017.10.09-11.23.48
+[2017.10.09-10.23.48:958][580]LogWorld: Bringing up level for play took: 0.000780
+[2017.10.09-10.23.48:971][580]LogLoad: Took 0.048652 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap)
+[2017.10.09-10.24.01:543][877]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.09-10.24.01:579][877]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.09-10.24.01:580][877]PIE: New page: PIE session: ProceduralMap (9 Oct 2017 12:24:01)
+[2017.10.09-10.24.01:580][877]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap
+[2017.10.09-10.24.01:582][877]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002010s)
+[2017.10.09-10.24.01:582][877]LogAIModule: Creating AISystem for world ProceduralMap
+[2017.10.09-10.24.01:583][877]LogPlayLevel: PIE: World Init took: (0.000841s)
+[2017.10.09-10.24.01:583][877]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ProceduralMap.ProceduralMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap (0.003082s)
+[2017.10.09-10.24.01:621][877]LogInit: XAudio2 using 'Speakers (Conexant HD Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.09-10.24.01:636][877]LogInit: FAudioDevice initialized.
+[2017.10.09-10.24.01:672][877]LogLoad: Game class is 'RunnerGameMode_C'
+[2017.10.09-10.24.01:674][877]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap up for play (max tick rate 0) at 2017.10.09-11.24.01
+[2017.10.09-10.24.01:674][877]LogWorld: Bringing up level for play took: 0.001246
+[2017.10.09-10.24.01:696][877]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap 0.184
+[2017.10.09-10.24.07:852][399]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.09-10.24.07:870][399]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.09-10.24.07:870][399]PIE: New page: PIE session: ProceduralMap (9 Oct 2017 12:24:07)
+[2017.10.09-10.24.07:870][399]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap
+[2017.10.09-10.24.07:872][399]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001516s)
+[2017.10.09-10.24.07:872][399]LogAIModule: Creating AISystem for world ProceduralMap
+[2017.10.09-10.24.07:872][399]LogPlayLevel: PIE: World Init took: (0.000649s)
+[2017.10.09-10.24.07:873][399]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ProceduralMap.ProceduralMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap (0.002352s)
+[2017.10.09-10.24.07:894][399]LogInit: XAudio2 using 'Speakers (Conexant HD Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.09-10.24.07:905][399]LogInit: FAudioDevice initialized.
+[2017.10.09-10.24.07:937][399]LogLoad: Game class is 'RunnerGameMode_C'
+[2017.10.09-10.24.07:939][399]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap up for play (max tick rate 0) at 2017.10.09-11.24.07
+[2017.10.09-10.24.07:940][399]LogWorld: Bringing up level for play took: 0.001019
+[2017.10.09-10.24.07:952][399]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap 0.44
+[2017.10.09-10.32.53:421][843]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.10.09-11.01.06:764][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/RunnerCharacter" FILE="F:/Runner1/Content/ThirdPersonBP/Blueprints/RunnerCharacter.uasset" SILENT=true
+[2017.10.09-11.01.06:893][447]LogSavePackage: Save=108.09ms
+[2017.10.09-11.01.06:893][447]LogSavePackage: Moving 'F:/Runner1/Saved/RunnerCharacter562A5F2E4DF0D57023611FA03F96836F.tmp' to 'F:/Runner1/Content/ThirdPersonBP/Blueprints/RunnerCharacter.uasset'
+[2017.10.09-11.01.06:893][447]LogFileManager:Warning: DeleteFile was unable to delete 'F:/Runner1/Content/ThirdPersonBP/Blueprints/RunnerCharacter.uasset', retrying in .5s...
+[2017.10.09-11.01.07:393][447]LogFileManager:Error: Error deleting file 'F:/Runner1/Content/ThirdPersonBP/Blueprints/RunnerCharacter.uasset'.
+[2017.10.09-11.01.07:393][447]LogSavePackage:Error: Error saving 'F:/Runner1/Content/ThirdPersonBP/Blueprints/RunnerCharacter.uasset'
+[2017.10.09-11.01.07:395][447]LogSavePackage:Display: Finished SavePackage F:/Runner1/Content/ThirdPersonBP/Blueprints/RunnerCharacter.uasset
+[2017.10.09-11.01.08:983][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/RunnerCharacter" FILE="F:/Runner1/Content/ThirdPersonBP/Blueprints/RunnerCharacter.uasset" SILENT=true
+[2017.10.09-11.01.09:112][447]LogSavePackage: Save=117.64ms
+[2017.10.09-11.01.09:112][447]LogSavePackage: Moving 'F:/Runner1/Saved/RunnerCharacter8EBBF8404DEF924A843E68B1179A6BA8.tmp' to 'F:/Runner1/Content/ThirdPersonBP/Blueprints/RunnerCharacter.uasset'
+[2017.10.09-11.01.09:112][447]LogFileManager:Warning: DeleteFile was unable to delete 'F:/Runner1/Content/ThirdPersonBP/Blueprints/RunnerCharacter.uasset', retrying in .5s...
+[2017.10.09-11.01.09:612][447]LogFileManager:Error: Error deleting file 'F:/Runner1/Content/ThirdPersonBP/Blueprints/RunnerCharacter.uasset'.
+[2017.10.09-11.01.09:612][447]LogSavePackage:Error: Error saving 'F:/Runner1/Content/ThirdPersonBP/Blueprints/RunnerCharacter.uasset'
+[2017.10.09-11.01.09:613][447]LogSavePackage:Display: Finished SavePackage F:/Runner1/Content/ThirdPersonBP/Blueprints/RunnerCharacter.uasset
+[2017.10.09-11.01.11:822][447]EditorErrors: New page: Save Output
+[2017.10.09-11.01.11:822][447]EditorErrors:Warning: Warning Error saving 'F:/Runner1/Content/ThirdPersonBP/Blueprints/RunnerCharacter.uasset'
+[2017.10.09-11.01.11:822][447]EditorErrors:Warning: Warning Error saving 'F:/Runner1/Content/ThirdPersonBP/Blueprints/RunnerCharacter.uasset'
+[2017.10.09-11.01.14:363][742]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.09-11.01.14:379][742]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.09-11.01.14:379][742]PIE: New page: PIE session: ProceduralMap (9 Oct 2017 13:01:14)
+[2017.10.09-11.01.14:379][742]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap
+[2017.10.09-11.01.14:381][742]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001761s)
+[2017.10.09-11.01.14:382][742]LogAIModule: Creating AISystem for world ProceduralMap
+[2017.10.09-11.01.14:382][742]LogPlayLevel: PIE: World Init took: (0.000779s)
+[2017.10.09-11.01.14:382][742]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ProceduralMap.ProceduralMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap (0.002730s)
+[2017.10.09-11.01.14:400][742]LogInit: XAudio2 using 'Speakers (Conexant HD Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.09-11.01.14:410][742]LogInit: FAudioDevice initialized.
+[2017.10.09-11.01.14:440][742]LogLoad: Game class is 'RunnerGameMode_C'
+[2017.10.09-11.01.14:444][742]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap.ProceduralMap up for play (max tick rate 0) at 2017.10.09-12.01.14
+[2017.10.09-11.01.14:445][742]LogWorld: Bringing up level for play took: 0.001979
+[2017.10.09-11.01.14:474][742]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ProceduralMap 0.938
+[2017.10.09-11.01.21:280][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/RunnerCharacter" FILE="F:/Runner1/Content/ThirdPersonBP/Blueprints/RunnerCharacter.uasset" SILENT=true
+[2017.10.09-11.01.21:392][996]LogSavePackage: Save=103.19ms
+[2017.10.09-11.01.21:392][996]LogSavePackage: Moving 'F:/Runner1/Saved/RunnerCharacter75ADFD7E4E057D0ADFFFCE89CAEF50D0.tmp' to 'F:/Runner1/Content/ThirdPersonBP/Blueprints/RunnerCharacter.uasset'
+[2017.10.09-11.01.21:394][996]LogSavePackage:Display: Finished SavePackage F:/Runner1/Content/ThirdPersonBP/Blueprints/RunnerCharacter.uasset
+[2017.10.09-11.01.22:626][108]Cmd: QUIT_EDITOR
+[2017.10.09-11.01.22:668][108]LogExit: Preparing to exit.
+[2017.10.09-11.01.23:792][108]LogExit: Editor shut down
+[2017.10.09-11.01.23:796][108]LogExit: Transaction tracking system shut down
+[2017.10.09-11.01.23:952][108]LogObj: Freed 0b from 0 cluster array pools.
+[2017.10.09-11.01.23:952][108]LogExit: Object subsystem successfully closed.
+[2017.10.09-11.01.23:976][108]LogD3D11RHI: Shutdown
+[2017.10.09-11.01.23:976][108]LogD3D11RHI: CleanupD3DDevice
+[2017.10.09-11.01.24:080][108]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.10.09-11.01.24:132][108]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (532)
+[2017.10.09-11.01.24:132][108]LogModuleManager: Shutting down and abandoning module BlueprintGraph (530)
+[2017.10.09-11.01.24:132][108]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (528)
+[2017.10.09-11.01.24:148][108]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2017.10.09-11.01.24:148][108]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.10.09-11.01.24:148][108]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.10.09-11.01.24:148][108]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.10.09-11.01.24:148][108]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.10.09-11.01.24:149][108]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.10.09-11.01.24:151][108]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.10.09-11.01.24:151][108]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.10.09-11.01.24:151][108]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.10.09-11.01.24:151][108]LogDirectoryWatcher: A directory notification for 'F:/Runner1/Content/Collections/' was aborted.
+[2017.10.09-11.01.24:151][108]LogDirectoryWatcher: A directory notification for 'F:/Runner1/Content/Developers/Games/Collections/' was aborted.
+[2017.10.09-11.01.24:151][108]LogDirectoryWatcher: A directory notification for 'F:/Runner1/Saved/Collections/' was aborted.
+[2017.10.09-11.01.24:152][108]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.10.09-11.01.24:152][108]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.10.09-11.01.24:152][108]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.10.09-11.01.24:152][108]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.10.09-11.01.24:152][108]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.10.09-11.01.24:152][108]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.10.09-11.01.24:152][108]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.10.09-11.01.24:152][108]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.10.09-11.01.24:152][108]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.10.09-11.01.24:152][108]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.10.09-11.01.24:152][108]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.10.09-11.01.24:152][108]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.10.09-11.01.24:152][108]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.10.09-11.01.24:152][108]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.10.09-11.01.24:152][108]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.10.09-11.01.24:152][108]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.10.09-11.01.24:152][108]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.10.09-11.01.24:153][108]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.10.09-11.01.24:153][108]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.10.09-11.01.24:153][108]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.10.09-11.01.24:153][108]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.10.09-11.01.24:153][108]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.10.09-11.01.24:153][108]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.10.09-11.01.24:153][108]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.10.09-11.01.24:153][108]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.10.09-11.01.24:153][108]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.10.09-11.01.24:153][108]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.10.09-11.01.24:153][108]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.10.09-11.01.24:153][108]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.10.09-11.01.24:153][108]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.10.09-11.01.24:153][108]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.10.09-11.01.24:153][108]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.10.09-11.01.24:153][108]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.10.09-11.01.24:153][108]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.10.09-11.01.24:153][108]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.10.09-11.01.24:153][108]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.10.09-11.01.24:153][108]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.10.09-11.01.24:153][108]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.10.09-11.01.24:649][108]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.10.09-11.01.24:649][108]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.10.09-11.01.24:649][108]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.10.09-11.01.24:649][108]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.10.09-11.01.24:649][108]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.10.09-11.01.24:649][108]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.10.09-11.01.24:649][108]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.10.09-11.01.24:649][108]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.10.09-11.01.24:649][108]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.10.09-11.01.24:649][108]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.10.09-11.01.24:649][108]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.10.09-11.01.24:649][108]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.10.09-11.01.24:649][108]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.10.09-11.01.24:649][108]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.10.09-11.01.24:649][108]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.10.09-11.01.24:649][108]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.10.09-11.01.24:649][108]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.10.09-11.01.24:650][108]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.10.09-11.01.24:650][108]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.10.09-11.01.24:650][108]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.10.09-11.01.24:650][108]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.10.09-11.01.24:650][108]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.10.09-11.01.24:650][108]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.10.09-11.01.24:650][108]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.10.09-11.01.24:700][108]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.10.09-11.01.24:700][108]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.10.09-11.01.24:700][108]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.10.09-11.01.24:700][108]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.10.09-11.01.24:700][108]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.10.09-11.01.24:700][108]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.10.09-11.01.24:700][108]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.10.09-11.01.24:700][108]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.10.09-11.01.24:700][108]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.10.09-11.01.24:700][108]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.10.09-11.01.24:721][108]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.10.09-11.01.24:724][108]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.10.09-11.01.24:724][108]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.10.09-11.01.24:725][108]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.10.09-11.01.24:725][108]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.10.09-11.01.24:725][108]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.10.09-11.01.24:725][108]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.10.09-11.01.24:725][108]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.10.09-11.01.24:725][108]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.10.09-11.01.24:725][108]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.10.09-11.01.24:725][108]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.10.09-11.01.24:725][108]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.10.09-11.01.24:725][108]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.10.09-11.01.24:725][108]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.10.09-11.01.24:725][108]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.10.09-11.01.24:725][108]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.10.09-11.01.24:725][108]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.10.09-11.01.24:725][108]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.10.09-11.01.24:725][108]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.10.09-11.01.24:725][108]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.10.09-11.01.24:881][108]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.10.09-11.01.24:881][108]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.10.09-11.01.24:881][108]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.10.09-11.01.24:881][108]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.10.09-11.01.24:881][108]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.10.09-11.01.24:881][108]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.10.09-11.01.24:881][108]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.10.09-11.01.24:881][108]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.10.09-11.01.24:881][108]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.10.09-11.01.24:881][108]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.10.09-11.01.24:881][108]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.10.09-11.01.24:881][108]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.10.09-11.01.24:881][108]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.10.09-11.01.24:881][108]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.10.09-11.01.24:881][108]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.10.09-11.01.24:881][108]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.10.09-11.01.24:881][108]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.10.09-11.01.24:881][108]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.10.09-11.01.24:881][108]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.10.09-11.01.24:881][108]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.10.09-11.01.24:881][108]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.10.09-11.01.24:882][108]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.10.09-11.01.24:882][108]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.10.09-11.01.24:882][108]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.10.09-11.01.24:882][108]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.10.09-11.01.24:882][108]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.10.09-11.01.24:882][108]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.10.09-11.01.24:882][108]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.10.09-11.01.24:882][108]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.10.09-11.01.24:882][108]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.10.09-11.01.24:882][108]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.10.09-11.01.24:882][108]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.10.09-11.01.24:882][108]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.10.09-11.01.24:882][108]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.10.09-11.01.24:882][108]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.10.09-11.01.24:882][108]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.10.09-11.01.24:884][108]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.10.09-11.01.24:902][108]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.10.09-11.01.24:902][108]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.10.09-11.01.24:904][108]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.10.09-11.01.24:909][108]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.10.09-11.01.24:910][108]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.10.09-11.01.24:910][108]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.10.09-11.01.24:910][108]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.10.09-11.01.24:914][108]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.10.09-11.01.25:014][108]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.10.09-11.01.25:124][108]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.10.09-11.01.25:148][108]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.10.09-11.01.25:157][108]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.10.09-11.01.25:157][108]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.10.09-11.01.25:189][108]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.10.09-11.01.25:189][108]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.10.09-11.01.25:191][108]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.10.09-11.01.25:191][108]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.10.09-11.01.25:207][108]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.10.09-11.01.25:207][108]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.10.09-11.01.25:208][108]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.10.09-11.01.25:208][108]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.10.09-11.01.25:247][108]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.10.09-11.01.25:248][108]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.10.09-11.01.25:261][108]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.10.09-11.01.25:272][108]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.10.09-11.01.25:295][108]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.10.09-11.01.25:295][108]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.10.09-11.01.25:326][108]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.10.09-11.01.25:326][108]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.10.09-11.01.25:342][108]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.10.09-11.01.25:359][108]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.10.09-11.01.25:395][108]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.10.09-11.01.25:418][108]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.10.09-11.01.25:436][108]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.10.09-11.01.25:436][108]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.10.09-11.01.25:436][108]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.10.09-11.01.25:477][108]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.10.09-11.01.25:477][108]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.10.09-11.01.25:484][108]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.10.09-11.01.25:484][108]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.10.09-11.01.25:484][108]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.10.09-11.01.25:484][108]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.10.09-11.01.25:484][108]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.10.09-11.01.25:484][108]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.10.09-11.01.25:643][108]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.10.09-11.01.25:643][108]LogDirectoryWatcher: A directory notification for 'F:/Runner1/Content/' was aborted.
+[2017.10.09-11.01.25:643][108]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.10.09-11.01.25:643][108]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.10.09-11.01.25:647][108]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.10.09-11.01.25:647][108]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.10.09-11.01.25:647][108]LogModuleManager: Shutting down and abandoning module PhysXFormats (156)
+[2017.10.09-11.01.25:647][108]LogModuleManager: Shutting down and abandoning module MeshUtilities (154)
+[2017.10.09-11.01.25:647][108]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (153)
+[2017.10.09-11.01.25:647][108]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (151)
+[2017.10.09-11.01.25:647][108]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (149)
+[2017.10.09-11.01.25:656][108]LogModuleManager: Shutting down and abandoning module LevelSequence (146)
+[2017.10.09-11.01.25:656][108]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.10.09-11.01.25:757][108]LogDerivedDataCache: Shutdown
+[2017.10.09-11.01.25:757][108]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.10.09-11.01.25:757][108]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.10.09-11.01.25:757][108]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.10.09-11.01.25:757][108]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.10.09-11.01.25:758][108]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.10.09-11.01.25:758][108]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.10.09-11.01.25:779][108]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.10.09-11.01.25:780][108]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.10.09-11.01.25:780][108]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.10.09-11.01.25:780][108]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.10.09-11.01.25:780][108]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.10.09-11.01.25:780][108]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.10.09-11.01.25:780][108]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.10.09-11.01.25:780][108]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.10.09-11.01.25:780][108]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.10.09-11.01.25:780][108]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.10.09-11.01.25:780][108]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.10.09-11.01.25:780][108]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.10.09-11.01.25:780][108]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.10.09-11.01.25:780][108]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.10.09-11.01.25:780][108]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.10.09-11.01.25:780][108]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.10.09-11.01.25:780][108]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.10.09-11.01.25:780][108]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.10.09-11.01.25:780][108]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.10.09-11.01.25:780][108]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.10.09-11.01.25:780][108]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.10.09-11.01.25:780][108]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.10.09-11.01.25:780][108]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.10.09-11.01.25:780][108]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.10.09-11.01.25:780][108]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.10.09-11.01.25:780][108]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.10.09-11.01.25:780][108]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.10.09-11.01.25:781][108]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.10.09-11.01.25:781][108]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.10.09-11.01.25:781][108]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.10.09-11.01.25:781][108]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.10.09-11.01.25:781][108]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.10.09-11.01.25:781][108]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.10.09-11.01.25:781][108]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.10.09-11.01.25:781][108]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.10.09-11.01.25:781][108]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.10.09-11.01.25:781][108]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.10.09-11.01.25:781][108]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.10.09-11.01.25:793][108]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.10.09-11.01.25:793][108]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.10.09-11.01.25:802][108]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.10.09-11.01.25:803][108]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.10.09-11.01.25:803][108]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.10.09-11.01.25:803][108]LogOnline:Display: Unloading online subsystem: NULL
+[2017.10.09-11.01.25:839][108]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.10.09-11.01.25:861][108]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.10.09-11.01.25:861][108]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.10.09-11.01.25:861][108]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD33B6616-450A-91C3-BDBE-78916A4C09C4%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.0-3452394%2B%2B%2BUE4%2BRelease-4.16&UserID=b334491a47b2b4b9b5da6780768e17f8%7Cf492d71bb8a146f39f4069461f147dd3%7C511cb9c5-1614-41b2-967c-9bec92252184&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.10.09-11.01.25:883][108]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.10.09-11.01.25:903][108]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.10.09-11.01.25:923][108]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.10.09-11.01.25:935][108]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.10.09-11.01.25:935][108]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.10.09-11.01.25:952][108]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.10.09-11.01.25:952][108]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.10.09-11.01.25:952][108]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.10.09-11.01.25:952][108]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.10.09-11.01.25:984][108]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.10.09-11.01.25:999][108]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.10.09-11.01.25:999][108]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.10.09-11.01.26:000][108]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.10.09-11.01.26:000][108]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.10.09-11.01.26:000][108]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.10.09-11.01.26:000][108]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.10.09-11.01.26:000][108]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.10.09-11.01.26:000][108]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.10.09-11.01.26:000][108]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.10.09-11.01.26:025][108]LogExit: Exiting.
+[2017.10.09-11.01.26:050][108]Log file closed, 10/09/17 12:01:26
