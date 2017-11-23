@@ -12,10 +12,10 @@ public class BillBoard2D : MonoBehaviour {
 	
 	
 	void Update () {
-        Vector3 rot = sceneCamera.transform.rotation.eulerAngles;
+         Vector2 rot = sceneCamera.transform.rotation.eulerAngles;
 
-        rot.x = 0;
-        rot.z = 0;
-        transform.rotation = Quaternion.Euler(rot); 
-	}
+          rot.x = 0;
+          //rot.z = 0;
+          transform.rotation = Quaternion.Euler(rot); 
+    }
 }
