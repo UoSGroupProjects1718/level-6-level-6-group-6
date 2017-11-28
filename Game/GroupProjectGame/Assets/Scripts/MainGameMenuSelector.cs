@@ -13,14 +13,14 @@ public class MainGameMenuSelector : MonoBehaviour
     {
         if ((MenuActive) && (go.transform.position.x >= 105))
         {
-            Debug.Log("Moving Left");
-            go.transform.Translate(Vector3.left * 0.8f);
+            //Debug.Log("Moving Left");
+            go.transform.Translate(Vector3.left * 1f);
         }
 
         if ((!MenuActive) && (go.transform.position.x <= 160))
         {
-            Debug.Log("Moving Right");
-            go.transform.Translate(Vector3.right * 0.8f);
+            //Debug.Log("Moving Right");
+            go.transform.Translate(Vector3.right * 1f);
         }
     }
 
