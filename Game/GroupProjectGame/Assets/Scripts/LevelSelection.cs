@@ -6,7 +6,8 @@ public class LevelSelection : MonoBehaviour {
 
     private SceneManagement ScenemanScript;
     private GameObject GameController;
-    public int IslandLevel;
+    public float IslandLevel;
+    public GameObject ThisGo;
 
 	void Start ()
     {
@@ -18,48 +19,22 @@ public class LevelSelection : MonoBehaviour {
 	
 	void Update ()
     {
-        if (IslandLevel == 1)
+        if ((ThisGo == GameObject.Find("Island_1")) && Input.GetMouseButton(0))
         {
-            if (Input.GetMouseButtonDown(0))
-            {
-                ScenemanScript.CurrentScene = 2;
-            }
+            ScenemanScript.CurrentScene = 2;
         }
-        else if (IslandLevel == 2)
-        {
-
-        }
-        else if (IslandLevel == 2)
-        {
-
-        }
-        else if (IslandLevel == 3)
-        {
-
-        }
-        else if (IslandLevel == 4)
-        {
-
-        }
-        else if (IslandLevel == 5)
-        {
-
-        }
-        else if (IslandLevel == 6)
-        {
-
-        }
-
     }
 
     void OnMouseOver()
     {
         GetComponent<SpriteRenderer>().color = Color.white;
+        ThisGo = this.gameObject;
     }
 
     void OnMouseExit()
     {
         GetComponent<SpriteRenderer>().color = Color.grey;
+        ThisGo = null;
     }
 
 }
