@@ -28,46 +28,46 @@ public class ChangeColour2D : MonoBehaviour {
     }
 
     void Start () {
-       colourSelected = Color.grey; 
+        colourSelected = Color.grey; 
 	}
 	
 	public void ChangeColourRed()
     {
-        colourSelected = new Color (2.29f, 2.01f, 2.15f, 1.0f);
+        colourSelected = Color.red;
         Debug.Log("You have selected red");
         
     }
 
     public void ChangeColourDarkRed()
     {
-        colourSelected = new Color(1.78f, 0.90f, 1.34f, 1.0f);
+        colourSelected = new Color(0.5f, 0f, 0f, 1);
         Debug.Log("You have selected red");
         
     }
 
     public void ChangeColourBlue()
     {
-        colourSelected = new Color (1.48f,2.12f,2.55f, 1.0f) ;
+        colourSelected = Color.blue;
         Debug.Log("You have selected blue");
         
     }
 
     public void ChangeColourDarkBlue()
     {
-        colourSelected = new Color(0.80f, 1.67f, 2.55f, 1.0f);
+        colourSelected = new Color(0f, 0f, 0.5f, 1);
         Debug.Log("You have selected blue");
         
     }
 
     public void ChangeColourGreen()
     {
-        colourSelected = new Color(1.86f,2.55f,1.79f, 1.0f);
+        colourSelected = Color.green;
         Debug.Log("You have selected Green");
     }
 
     public void ChangeColourDarkGreen()
     {
-        colourSelected = new Color(1.12f, 1.52f, 1.16f, 1.0f);
+        colourSelected = new Color(0f, 0.5f, 0f, 1);
         Debug.Log("You have selected blue");        
         
     }
