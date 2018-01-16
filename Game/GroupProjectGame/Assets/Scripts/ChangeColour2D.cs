@@ -11,7 +11,6 @@ public class ChangeColour2D : MonoBehaviour {
     public static ChangeColour2D Instance { get { return instance; } }
 
     public ParticleSystem ColourSelectedParticleEffect;
-   
 
     void Awake()
     {
@@ -27,13 +26,14 @@ public class ChangeColour2D : MonoBehaviour {
       
     }
 
-    void Start () {
-       colourSelected = Color.grey; 
-	}
+    void Start ()
+    {
+       colourSelected = Color.grey;
+    }
 	
 	public void ChangeColourRed()
     {
-        colourSelected = new Color (2.29f, 2.01f, 2.15f, 1.0f);
+        colourSelected = Color.red;
         Debug.Log("You have selected red");
         
     }

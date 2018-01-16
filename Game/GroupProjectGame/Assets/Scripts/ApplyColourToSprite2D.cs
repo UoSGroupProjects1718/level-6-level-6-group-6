@@ -10,11 +10,6 @@ public class ApplyColourToSprite2D : MonoBehaviour {
 	void Start () {
         SR = GetComponent<SpriteRenderer>();
 	}
-	
-	
-	void Update () {
-		
-	}
 
     void OnMouseDown()
     {
