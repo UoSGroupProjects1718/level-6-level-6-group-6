@@ -9,24 +9,27 @@ public class MainGameMenuSelector : MonoBehaviour
     public GameObject go;
     public Transform Target;
     private GameObject ThisGo;
+    private GameObject GameMan;
+    private PaintMaterials3D Paint;
 
     void Start()
     {
         ThisGo = this.gameObject;
+        GameMan = GameObject.Find("GameManager");
+        Paint = GameMan.GetComponent<PaintMaterials3D>();
     }
 
     void Update ()
     {
         if ((MenuActive) && (go.transform.position.x >= (ThisGo.transform.position.x - 1)))
         {
-            //Debug.Log("Moving Left");
-            go.transform.Translate(Vector3.left * 1f);
+            go.transform.Translate(Vector3.left * 3f);
         }
 
         if ((!MenuActive) && (go.transform.position.x <= (ThisGo.transform.position.x + 45)))
         {
-            //Debug.Log("Moving Right");
-            go.transform.Translate(Vector3.right * 1f);
+            Paint.ResetColours();
+            go.transform.Translate(Vector3.right * 3f);
         }
     }
 
