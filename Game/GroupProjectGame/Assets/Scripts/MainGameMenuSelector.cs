@@ -23,13 +23,13 @@ public class MainGameMenuSelector : MonoBehaviour
     {
         if ((MenuActive) && (go.transform.position.x >= (ThisGo.transform.position.x - 1)))
         {
-            go.transform.Translate(Vector3.left * 3f);
+            go.transform.Translate(Vector3.left * 10f);
         }
 
-        if ((!MenuActive) && (go.transform.position.x <= (ThisGo.transform.position.x + 45)))
+        if ((!MenuActive) && (go.transform.position.x <= (ThisGo.transform.position.x + 250)))
         {
             Paint.ResetColours();
-            go.transform.Translate(Vector3.right * 3f);
+            go.transform.Translate(Vector3.right * 10f);
         }
     }
 

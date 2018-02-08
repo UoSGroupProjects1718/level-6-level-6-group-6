@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraZoom3D : MonoBehaviour {
+public class CameraZoom3D : MonoBehaviour
+{
 
     public int cameraZoom;//This variable is used for the value of how far the camera should zoom in for. 
     public int cameraNormal;//This variable is used as a value to allow the camera to back out to it's original distance. 
@@ -10,16 +11,13 @@ public class CameraZoom3D : MonoBehaviour {
 
     private bool isZoomed; 
 
-	void Start () {
+	void Start ()
+    {
         isZoomed = false;
 	}
-	
-	
-	void Update () {
-
+	void Update ()
+    {
         ZoomFunction(); 
-
-
 	}
 
     void ZoomFunction()

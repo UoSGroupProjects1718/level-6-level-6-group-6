@@ -13,19 +13,20 @@ public class PaintMaterials3D : MonoBehaviour
     public static PaintMaterials3D Instance { get { return instance; } }
 
     public ParticleSystem ColourSelectedParticleEffect;
-
     public GameObject Red;
     public GameObject DarkRed;
     public GameObject Blue;
     public GameObject DarkBlue;
     public GameObject Green;
     public GameObject DarkGreen;
+
     private bool MoveRed = false;
     private bool MoveDRed = false;
     private bool MoveGreen = false;
     private bool MoveDGreen = false;
     private bool MoveBlue = false;
     private bool MoveDBlue = false;
+    private float TranslateSpeed = 0.2f;
 
     void Awake()
     {
@@ -91,27 +92,27 @@ public class PaintMaterials3D : MonoBehaviour
     {
         if(MoveRed)
         {
-            Red.transform.Translate(Vector3.left * 1.75f);
+            Red.transform.Translate(Vector3.left * TranslateSpeed / Time.deltaTime);
         }
         if (MoveDRed)
         {
-            DarkRed.transform.Translate(Vector3.left * 1.75f);
+            DarkRed.transform.Translate(Vector3.left * TranslateSpeed / Time.deltaTime);
         }
         if (MoveGreen)
         {
-            Green.transform.Translate(Vector3.left * 1.75f);
+            Green.transform.Translate(Vector3.left * TranslateSpeed / Time.deltaTime);
         }
         if (MoveDGreen)
         {
-            DarkGreen.transform.Translate(Vector3.left * 1.75f);
+            DarkGreen.transform.Translate(Vector3.left * TranslateSpeed / Time.deltaTime);
         }
         if (MoveBlue)
         {
-            Blue.transform.Translate(Vector3.left * 1.75f);
+            Blue.transform.Translate(Vector3.left * TranslateSpeed / Time.deltaTime);
         }
         if (MoveDBlue)
         {
-            DarkBlue.transform.Translate(Vector3.left * 1.75f);
+            DarkBlue.transform.Translate(Vector3.left * TranslateSpeed / Time.deltaTime);
         }
     }
 
