@@ -10,6 +10,7 @@ public class ApplyColourToSprite3D : MonoBehaviour {
     void Start ()
     {
         Rend = GetComponent<Renderer>();
+        Rend.material.color = Color.black;
     }
 
     void OnMouseDown ()
