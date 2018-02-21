@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class UI_Selector : MonoBehaviour
 {
-    bool MenuActive = false;
+    public bool MenuActive = false;
     public GameObject go;
     private GameObject ThisGo;
     private GameObject GameMan;

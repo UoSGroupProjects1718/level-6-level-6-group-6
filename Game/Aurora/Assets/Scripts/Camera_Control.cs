@@ -6,21 +6,24 @@ public class Camera_Control : MonoBehaviour
 {
     
     public GameObject CurrentIsland;
-    public GameObject Hitobject;
+    //public GameObject Hitobject;
 
     private Camera MainCamera;
 
     private Vector3 Island = new Vector3(0, 75, -113);
     private Quaternion IslandRot = Quaternion.Euler(14, 0, 0);
 
-    private Vector3 Island2 = new Vector3(257, 122, 388);
-    private Quaternion Island2Rot = Quaternion.Euler(14, -134, 0);
+    private Vector3 Island2 = new Vector3(350, 155, 635);
+    private Quaternion Island2Rot = Quaternion.Euler(14, 180, 0);
 
     private Vector3 StoredLoc;
     private Quaternion StoredRot;
 
     private GameObject Island_1;
     private GameObject Island_2;
+	
+	private GameObject UI;
+	private UI_Selector UIscript;
 
     void Start()
     {
@@ -28,6 +31,9 @@ public class Camera_Control : MonoBehaviour
         Island_1 = GameObject.Find("Island_01");
         Island_2 = GameObject.Find("Island_02");
         MainCamera = this.GetComponent<Camera>();
+		
+		UI = GameObject.Find("Maarii");
+		UIscript = UI.GetComponent<UI_Selector>();
     }
 
     void Update()
@@ -36,9 +42,9 @@ public class Camera_Control : MonoBehaviour
         {
             RaycastHit HitObject = new RaycastHit();
             Ray Raycast = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(Raycast, out HitObject, 500f))
+            if (Physics.Raycast(Raycast, out HitObject, 750f))
             {
-                if ((HitObject.transform.tag == ("Island")) && (CurrentIsland != Island_1))
+                if ((HitObject.transform.tag == ("Island")) && (CurrentIsland != Island_1) && (!UIscript.MenuActive))
                 {
                     StoredLoc = Island;
                     StoredRot = IslandRot;
@@ -46,7 +52,7 @@ public class Camera_Control : MonoBehaviour
                     StartCoroutine(CameraPan(Island2, StoredLoc, 2.5f, Island2Rot, StoredRot));
                 }
 
-                if ((HitObject.transform.tag == ("Island2")) && (CurrentIsland != Island_2))
+                if ((HitObject.transform.tag == ("Island2")) && (CurrentIsland != Island_2) && (!UIscript.MenuActive))
                 {
                     StoredLoc = Island2;
                     StoredRot = Island2Rot;
