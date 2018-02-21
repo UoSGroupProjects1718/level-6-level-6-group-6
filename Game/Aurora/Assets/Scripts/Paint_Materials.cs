@@ -24,6 +24,9 @@ public class Paint_Materials : MonoBehaviour
     private bool MoveYellow = false;
     private bool MoveIce = false;
     private float TranslateSpeed = 0.3f;
+	private AudioSource BackgroundMusic;
+	private AudioSource OnClick;
+		
 
     void Awake()
     {
@@ -43,6 +46,8 @@ public class Paint_Materials : MonoBehaviour
     {
         colourSelected = Color.black;
         GetComponent<Renderer>().material.color = colourSelected;
+		BackgroundMusic = GetComponent<AudioSource>();
+		BackgroundMusic.Play();
     }
 
     public void Paint()

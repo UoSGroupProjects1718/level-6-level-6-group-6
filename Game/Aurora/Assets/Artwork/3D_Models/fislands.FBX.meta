@@ -1,0 +1,394 @@
+fileFormatVersion: 2
+guid: 0c4e2ad49a51c7b4e8f4ab10a1d4abe2
+timeCreated: 1519215889
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: bluemushroom001
+    100002: bluemushroom002
+    100004: bluemushroom003
+    100006: bush001
+    100008: bush002
+    100010: bush003
+    100012: bush004
+    100014: bush005
+    100016: bush006
+    100018: bush007
+    100020: bush008
+    100022: bush009
+    100024: bush011
+    100026: bush012
+    100028: fencedarea
+    100030: //RootNode
+    100032: floatingisland
+    100034: pinkflower001
+    100036: pinkflower002
+    100038: pinkflower003
+    100040: pinkflower004
+    100042: pinkflower005
+    100044: Plane008
+    100046: post001
+    100048: post002
+    100050: post003
+    100052: redmushroom001
+    100054: redmushroom002
+    100056: redmushroom003
+    100058: rock001
+    100060: rock002
+    100062: rock003
+    100064: rock004
+    100066: rock005
+    100068: rockthreecluster001
+    100070: rockthreecluster002
+    100072: signpost
+    100074: stone001
+    100076: stone002
+    100078: stone003
+    100080: stone004
+    100082: stone005
+    100084: stone006
+    100086: stone007
+    100088: stone008
+    100090: tallbluemushroom001
+    100092: treeleaves001
+    100094: treeleaves002
+    100096: treeleaves003
+    100098: treeleaves004
+    100100: treeleaves004 1
+    100102: treeleaves005
+    100104: treestump
+    100106: treetrunk
+    100108: waterblocks
+    100110: watervolume
+    100112: yellowflower001
+    100114: yellowflower002
+    100116: yellowflower003
+    400000: bluemushroom001
+    400002: bluemushroom002
+    400004: bluemushroom003
+    400006: bush001
+    400008: bush002
+    400010: bush003
+    400012: bush004
+    400014: bush005
+    400016: bush006
+    400018: bush007
+    400020: bush008
+    400022: bush009
+    400024: bush011
+    400026: bush012
+    400028: fencedarea
+    400030: //RootNode
+    400032: floatingisland
+    400034: pinkflower001
+    400036: pinkflower002
+    400038: pinkflower003
+    400040: pinkflower004
+    400042: pinkflower005
+    400044: Plane008
+    400046: post001
+    400048: post002
+    400050: post003
+    400052: redmushroom001
+    400054: redmushroom002
+    400056: redmushroom003
+    400058: rock001
+    400060: rock002
+    400062: rock003
+    400064: rock004
+    400066: rock005
+    400068: rockthreecluster001
+    400070: rockthreecluster002
+    400072: signpost
+    400074: stone001
+    400076: stone002
+    400078: stone003
+    400080: stone004
+    400082: stone005
+    400084: stone006
+    400086: stone007
+    400088: stone008
+    400090: tallbluemushroom001
+    400092: treeleaves001
+    400094: treeleaves002
+    400096: treeleaves003
+    400098: treeleaves004
+    400100: treeleaves004 1
+    400102: treeleaves005
+    400104: treestump
+    400106: treetrunk
+    400108: waterblocks
+    400110: watervolume
+    400112: yellowflower001
+    400114: yellowflower002
+    400116: yellowflower003
+    2100000: 'Material #351'
+    2100002: 'Material #352'
+    2100004: 'Material #362'
+    2100006: 'Material #353'
+    2100008: 'Material #354'
+    2100010: 'Material #361'
+    2100012: 'Material #357'
+    2100014: 'Material #356'
+    2100016: 'Material #360'
+    2100018: 'Material #358'
+    2100020: 'Material #359'
+    2100022: 'Material #355'
+    2100024: No Name
+    2300000: bluemushroom001
+    2300002: bluemushroom002
+    2300004: bluemushroom003
+    2300006: bush001
+    2300008: bush002
+    2300010: bush003
+    2300012: bush004
+    2300014: bush005
+    2300016: bush006
+    2300018: bush007
+    2300020: bush008
+    2300022: bush009
+    2300024: bush011
+    2300026: bush012
+    2300028: fencedarea
+    2300030: floatingisland
+    2300032: pinkflower001
+    2300034: pinkflower002
+    2300036: pinkflower003
+    2300038: pinkflower004
+    2300040: pinkflower005
+    2300042: Plane008
+    2300044: post001
+    2300046: post002
+    2300048: post003
+    2300050: redmushroom001
+    2300052: redmushroom002
+    2300054: redmushroom003
+    2300056: rock001
+    2300058: rock002
+    2300060: rock003
+    2300062: rock004
+    2300064: rock005
+    2300066: rockthreecluster001
+    2300068: rockthreecluster002
+    2300070: signpost
+    2300072: stone001
+    2300074: stone002
+    2300076: stone003
+    2300078: stone004
+    2300080: stone005
+    2300082: stone006
+    2300084: stone007
+    2300086: stone008
+    2300088: tallbluemushroom001
+    2300090: treeleaves001
+    2300092: treeleaves002
+    2300094: treeleaves003
+    2300096: treeleaves004
+    2300098: treeleaves004 1
+    2300100: treeleaves005
+    2300102: treestump
+    2300104: treetrunk
+    2300106: waterblocks
+    2300108: watervolume
+    2300110: yellowflower001
+    2300112: yellowflower002
+    2300114: yellowflower003
+    3300000: bluemushroom001
+    3300002: bluemushroom002
+    3300004: bluemushroom003
+    3300006: bush001
+    3300008: bush002
+    3300010: bush003
+    3300012: bush004
+    3300014: bush005
+    3300016: bush006
+    3300018: bush007
+    3300020: bush008
+    3300022: bush009
+    3300024: bush011
+    3300026: bush012
+    3300028: fencedarea
+    3300030: floatingisland
+    3300032: pinkflower001
+    3300034: pinkflower002
+    3300036: pinkflower003
+    3300038: pinkflower004
+    3300040: pinkflower005
+    3300042: Plane008
+    3300044: post001
+    3300046: post002
+    3300048: post003
+    3300050: redmushroom001
+    3300052: redmushroom002
+    3300054: redmushroom003
+    3300056: rock001
+    3300058: rock002
+    3300060: rock003
+    3300062: rock004
+    3300064: rock005
+    3300066: rockthreecluster001
+    3300068: rockthreecluster002
+    3300070: signpost
+    3300072: stone001
+    3300074: stone002
+    3300076: stone003
+    3300078: stone004
+    3300080: stone005
+    3300082: stone006
+    3300084: stone007
+    3300086: stone008
+    3300088: tallbluemushroom001
+    3300090: treeleaves001
+    3300092: treeleaves002
+    3300094: treeleaves003
+    3300096: treeleaves004
+    3300098: treeleaves004 1
+    3300100: treeleaves005
+    3300102: treestump
+    3300104: treetrunk
+    3300106: waterblocks
+    3300108: watervolume
+    3300110: yellowflower001
+    3300112: yellowflower002
+    3300114: yellowflower003
+    4300000: floatingisland
+    4300002: treestump
+    4300004: post003
+    4300006: signpost
+    4300008: stone008
+    4300010: rock004
+    4300012: waterblocks
+    4300014: bluemushroom003
+    4300016: redmushroom001
+    4300018: bluemushroom001
+    4300020: bush008
+    4300022: bush009
+    4300024: Plane008
+    4300026: bush007
+    4300028: bush006
+    4300030: bush005
+    4300032: bush003
+    4300034: bush004
+    4300036: bush002
+    4300038: bush001
+    4300040: bush011
+    4300042: bush012
+    4300044: pinkflower005
+    4300046: yellowflower001
+    4300048: pinkflower003
+    4300050: pinkflower004
+    4300052: pinkflower002
+    4300054: yellowflower003
+    4300056: yellowflower002
+    4300058: pinkflower001
+    4300060: redmushroom003
+    4300062: redmushroom002
+    4300064: bluemushroom002
+    4300066: treetrunk
+    4300068: fencedarea
+    4300070: post001
+    4300072: treeleaves002
+    4300074: treeleaves003
+    4300076: treeleaves004
+    4300078: treeleaves005
+    4300080: treeleaves004
+    4300082: treeleaves001
+    4300084: rock002
+    4300086: rock001
+    4300088: rockthreecluster001
+    4300090: rockthreecluster002
+    4300092: rock003
+    4300094: stone002
+    4300096: stone001
+    4300098: rock005
+    4300100: stone003
+    4300102: stone006
+    4300104: stone004
+    4300106: stone007
+    4300108: stone005
+    4300110: tallbluemushroom001
+    4300112: watervolume
+    4300114: post002
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
