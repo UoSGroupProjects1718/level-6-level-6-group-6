@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Island
   - Island2
+  - Flower
   layers:
   - Default
   - TransparentFX

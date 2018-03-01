@@ -1,57 +1,75 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Paint_Materials : MonoBehaviour
 {
-    private static Paint_Materials instance;
     private Color colourSelected;
     public Color SelectedColour { get { return colourSelected; } }
-    public static Paint_Materials Instance { get { return instance; } }
     public ParticleSystem ColourSelectedParticleEffect;
 
     [Header("Variables Used for Colour Selection")]
     public GameObject Blue;
-    public GameObject DarkGreen;
-    public GameObject Green;
-    public GameObject DarkOrange;
-    public GameObject Yellow;
-    public GameObject Ice;
+    private GameObject DarkGreen;
+    private GameObject Green;
+    private GameObject DarkOrange;
+    private GameObject Yellow;
+    private GameObject Ice;
+	private bool ColoursAssigned = false;
     private bool MoveBlue = false;
     private bool MoveDGreen = false;
     private bool MoveGreen = false;
     private bool MoveDOrange = false;
     private bool MoveYellow = false;
     private bool MoveIce = false;
-    private float TranslateSpeed = 0.3f;
+    private float TranslateSpeed = 0.25f;
 	private AudioSource BackgroundMusic;
-	private AudioSource OnClick;
-		
 
-    void Awake()
-    {
-        if (Instance == null)
-        {
-            instance = this;
-        }
-        else if (Instance != this)
-        {
-            Destroy(this.gameObject);
-        }
-
-        DontDestroyOnLoad(this.gameObject);
-    }
-
+	[Header("Variables Used for Changing Material Colour")]
+	public bool BlueSelected = false;
+	public bool DarkBlueSelected = false;
+	public bool GreenSelected = false;
+	public bool YellowSelected = false;
+	public bool DarkOrangeSelected = false;
+	public bool DarkGreenSelected = false;
+	public bool EraserSelected = false;
+	
     void Start()
     {
-        colourSelected = Color.black;
-        GetComponent<Renderer>().material.color = colourSelected;
+		colourSelected = Color.black;
+		GetComponent<Renderer>().material.color = colourSelected;
 		BackgroundMusic = GetComponent<AudioSource>();
 		BackgroundMusic.Play();
     }
-
+	
+	public void AssignColours()
+	{
+		Blue = GameObject.Find("Blue");
+		Blue.SetActive(false);
+		DarkGreen = GameObject.Find("DarkGreen");
+		DarkGreen.SetActive(false);
+		Green = GameObject.Find("Green");
+		Green.SetActive(false);
+		DarkOrange = GameObject.Find("DarkOrange");
+		DarkOrange.SetActive(false);
+		Yellow = GameObject.Find("Yellow");
+		Yellow.SetActive(false);
+		Ice = GameObject.Find("Ice");
+		Ice.SetActive(false);
+		ColoursAssigned = true;
+	}
+	
     public void Paint()
     {
+		BlueSelected = false;
+		DarkBlueSelected = false;
+		GreenSelected = false;
+		YellowSelected = false;
+		DarkOrangeSelected = false;
+		DarkGreenSelected = false;
+		EraserSelected = false;
+		
         if (!Blue.activeInHierarchy)
         {
             StartCoroutine(MoveColours());
@@ -92,6 +110,15 @@ public class Paint_Materials : MonoBehaviour
 
     void Update()
     {
+		Scene currentScene = SceneManager.GetActiveScene();
+		
+		string sceneName = currentScene.name;
+		
+		if ((sceneName == "Main_Game") && (!ColoursAssigned))
+		{
+			AssignColours();
+		}
+		
         if (MoveBlue)
         {
             Blue.transform.Translate(Vector3.left * TranslateSpeed / Time.deltaTime);
@@ -120,7 +147,7 @@ public class Paint_Materials : MonoBehaviour
 
     public void Eraser()
     {
-        colourSelected = Color.black;
+		EraserSelected = true;
     }
 
     public void Exit()
@@ -146,42 +173,42 @@ public class Paint_Materials : MonoBehaviour
 
     public void ChangeColourBlue()
     {
-        colourSelected = new Color(0.58f, 0.83f, 1, 1);
+        BlueSelected = true;
         Debug.Log("You have selected Blue");
         ResetColours();
     }
 
     public void ChangeColourDarkGreen()
     {
-        colourSelected = new Color(0.44f, 0.6f, 0.45f, 1.0f);
+        DarkGreenSelected = true;
         Debug.Log("You have selected Dark Green");
         ResetColours();
     }
 
     public void ChangeColourGreen()
     {
-        colourSelected = new Color(0.73f, 1, 0.7f, 1.0f);
+        GreenSelected = true;
         Debug.Log("You have selected Green");
         ResetColours();
     }
 
     public void ChangeColourDarkOrange()
     {
-        colourSelected = new Color(1, 0.62f, 0.31f, 1.0f);
+        DarkOrangeSelected = true;
         Debug.Log("You have selected Dark Orange");
         ResetColours();
     }
 
     public void ChangeColourYellow()
     {
-        colourSelected = new Color(0.99f, 0.85f, 0.4f, 1.0f);
+        YellowSelected = true;
         Debug.Log("You have selected Yellow");
         ResetColours();
     }
 
     public void ChangeColourIce()
     {
-        colourSelected = new Color(0.87f, 0.94f, 1, 1.0f);
+        DarkBlueSelected = true;
         Debug.Log("You have selected Ice");
         ResetColours();
     }

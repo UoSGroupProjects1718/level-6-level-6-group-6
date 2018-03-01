@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Camera_Control : MonoBehaviour
 {
@@ -27,13 +28,20 @@ public class Camera_Control : MonoBehaviour
 
     void Start()
     {
-        CurrentIsland = GameObject.Find("Island_01");
-        Island_1 = GameObject.Find("Island_01");
-        Island_2 = GameObject.Find("Island_02");
-        MainCamera = this.GetComponent<Camera>();
+		Scene currentScene = SceneManager.GetActiveScene();
 		
-		UI = GameObject.Find("Maarii");
-		UIscript = UI.GetComponent<UI_Selector>();
+		string sceneName = currentScene.name;
+		
+		if (sceneName == "Main_Game")
+		{
+			CurrentIsland = GameObject.Find("Island_01");
+			Island_1 = GameObject.Find("Island_01");
+			Island_2 = GameObject.Find("Island_02");
+			MainCamera = this.GetComponent<Camera>();
+			
+			UI = GameObject.Find("Maarii");
+			UIscript = UI.GetComponent<UI_Selector>();
+		}
     }
 
     void Update()

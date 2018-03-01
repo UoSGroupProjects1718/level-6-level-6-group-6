@@ -41,7 +41,6 @@ public class Island_Rotation : MonoBehaviour
 	{
 		if (CamCont.CurrentIsland == this.gameObject)
 		{
-			print("Hovering over");
 			CanRotate = true;
 		}
 	}
