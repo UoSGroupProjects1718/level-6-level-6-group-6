@@ -180,7 +180,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 164083694}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.34127864, y: -5.642473, z: -3.6175537}
+  m_LocalPosition: {x: 0.34127864, y: -6.7, z: -3.6175537}
   m_LocalScale: {x: 2.5757024, y: 2.5757024, z: 2.5757024}
   m_Children: []
   m_Father: {fileID: 841488193}
@@ -718,7 +718,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1195270272}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.45503804, y: -4.0043364, z: -0.7053091}
+  m_LocalPosition: {x: -0.45503804, y: -5.3, z: -0.7053091}
   m_LocalScale: {x: 6.830935, y: 6.830934, z: 6.830934}
   m_Children: []
   m_Father: {fileID: 841488193}
@@ -867,7 +867,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1419002079}
   - component: {fileID: 1419002080}
-  - component: {fileID: 1419002078}
   - component: {fileID: 1419002081}
   m_Layer: 0
   m_Name: Game_Manager
@@ -876,25 +875,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1419002078
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1419002077}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c639057a22e7a8459c3d6b7d5811774, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ColourSelectedParticleEffect: {fileID: 198010059200455948, guid: a0e1d8e78b4174c46819d7ba4fcf4ac7,
-    type: 2}
-  Blue: {fileID: 0}
-  DarkGreen: {fileID: 0}
-  Green: {fileID: 0}
-  DarkOrange: {fileID: 0}
-  Yellow: {fileID: 0}
-  Ice: {fileID: 0}
 --- !u!4 &1419002079
 Transform:
   m_ObjectHideFlags: 0
@@ -1357,7 +1337,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 1656986949
+  randomSeed: 1343858137
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -4669,7 +4649,6 @@ GameObject:
   - component: {fileID: 2129447152}
   - component: {fileID: 2129447151}
   - component: {fileID: 2129447150}
-  - component: {fileID: 2129447154}
   - component: {fileID: 2129447155}
   m_Layer: 0
   m_Name: Main Camera
@@ -4741,18 +4720,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 14, y: 0, z: 0}
---- !u!114 &2129447154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2129447149}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb48b589b0fd8a74ba2818237a2e365a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CurrentIsland: {fileID: 0}
 --- !u!45 &2129447155
 Skybox:
   m_ObjectHideFlags: 0

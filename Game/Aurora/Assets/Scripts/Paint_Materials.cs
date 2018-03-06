@@ -45,19 +45,15 @@ public class Paint_Materials : MonoBehaviour
 	
 	public void AssignColours()
 	{
-		Blue = GameObject.Find("Blue");
-		Blue.SetActive(false);
-		DarkGreen = GameObject.Find("DarkGreen");
-		DarkGreen.SetActive(false);
+        Blue = GameObject.Find("Blue");
+        DarkGreen = GameObject.Find("DarkGreen");
 		Green = GameObject.Find("Green");
-		Green.SetActive(false);
 		DarkOrange = GameObject.Find("DarkOrange");
-		DarkOrange.SetActive(false);
 		Yellow = GameObject.Find("Yellow");
-		Yellow.SetActive(false);
 		Ice = GameObject.Find("Ice");
-		Ice.SetActive(false);
+        ResetColours();
 		ColoursAssigned = true;
+
 	}
 	
     public void Paint()

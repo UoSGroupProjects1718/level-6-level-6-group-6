@@ -298,7 +298,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MenuActive: 0
-  go: {fileID: 2036016563}
 --- !u!4 &187591007 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4415509106556208, guid: 21275cf328b9d9a4895638d6e7c27220,
@@ -5964,7 +5963,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 126.1, y: 45}
+  m_AnchoredPosition: {x: 157, y: 45}
   m_SizeDelta: {x: 300, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2036016565
