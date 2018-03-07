@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class UI_Selector : MonoBehaviour
 {
     public bool MenuActive = false;
-    public GameObject go;
+    private GameObject go;
     private GameObject ThisGo;
     private GameObject GameMan;
     private Paint_Materials Paint;
@@ -15,6 +15,7 @@ public class UI_Selector : MonoBehaviour
     {
         ThisGo = this.gameObject;
         GameMan = GameObject.Find("Game_Manager");
+        go = GameObject.Find("UI_Menu");
         Paint = GameMan.GetComponent<Paint_Materials>();
     }
 
@@ -25,7 +26,7 @@ public class UI_Selector : MonoBehaviour
             go.transform.Translate(Vector3.left * 25f);
         }
 
-        if ((!MenuActive) && (go.transform.position.x <= (ThisGo.transform.position.x + 450)))
+        if ((!MenuActive) && (go.transform.position.x <= (ThisGo.transform.position.x + 400)))
         {
             Paint.ResetColours();
             go.transform.Translate(Vector3.right * 25f);

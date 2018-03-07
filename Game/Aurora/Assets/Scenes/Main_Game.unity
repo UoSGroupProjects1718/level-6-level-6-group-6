@@ -161,6 +161,56 @@ Prefab:
       propertyPath: Blue
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 65077080487561994, guid: 450e49651a447fc43b4637a6f26dd4bf,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 121.05022
+      objectReference: {fileID: 0}
+    - target: {fileID: 65077080487561994, guid: 450e49651a447fc43b4637a6f26dd4bf,
+        type: 2}
+      propertyPath: m_Size.z
+      value: 386.71448
+      objectReference: {fileID: 0}
+    - target: {fileID: 65077080487561994, guid: 450e49651a447fc43b4637a6f26dd4bf,
+        type: 2}
+      propertyPath: m_Center.z
+      value: -40.72547
+      objectReference: {fileID: 0}
+    - target: {fileID: 65077080487561994, guid: 450e49651a447fc43b4637a6f26dd4bf,
+        type: 2}
+      propertyPath: m_Center.x
+      value: -5.060538
+      objectReference: {fileID: 0}
+    - target: {fileID: 65264549646766210, guid: 450e49651a447fc43b4637a6f26dd4bf,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 178.62628
+      objectReference: {fileID: 0}
+    - target: {fileID: 65264549646766210, guid: 450e49651a447fc43b4637a6f26dd4bf,
+        type: 2}
+      propertyPath: m_Size.z
+      value: 197.75911
+      objectReference: {fileID: 0}
+    - target: {fileID: 65264549646766210, guid: 450e49651a447fc43b4637a6f26dd4bf,
+        type: 2}
+      propertyPath: m_Center.x
+      value: -0.00042988957
+      objectReference: {fileID: 0}
+    - target: {fileID: 65264549646766210, guid: 450e49651a447fc43b4637a6f26dd4bf,
+        type: 2}
+      propertyPath: m_Center.z
+      value: -137.73473
+      objectReference: {fileID: 0}
+    - target: {fileID: 65264549646766210, guid: 450e49651a447fc43b4637a6f26dd4bf,
+        type: 2}
+      propertyPath: m_Center.y
+      value: -87.74952
+      objectReference: {fileID: 0}
+    - target: {fileID: 114184563895434352, guid: 450e49651a447fc43b4637a6f26dd4bf,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 450e49651a447fc43b4637a6f26dd4bf, type: 2}
   m_IsPrefabParent: 0
@@ -298,7 +348,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MenuActive: 0
-  go: {fileID: 2036016563}
 --- !u!4 &187591007 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4415509106556208, guid: 21275cf328b9d9a4895638d6e7c27220,
@@ -5964,7 +6013,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 126.1, y: 45}
+  m_AnchoredPosition: {x: 157, y: 45}
   m_SizeDelta: {x: 300, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2036016565
