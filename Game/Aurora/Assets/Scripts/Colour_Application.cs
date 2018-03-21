@@ -38,34 +38,33 @@ public class Colour_Application : MonoBehaviour
 			}*/
             Instantiate(ColourChangeParticleEffect, transform.position, transform.rotation);
 			
-			if (Paintref.BlueSelected)
+			if (Paintref.ColourStorer == 1)
 			{
 				Rend.material = Blue;
-				
 			}	
-			else if (Paintref.DarkBlueSelected)
+			else if (Paintref.ColourStorer == 2)
 			{
 				Rend.material = DBlue;
 			}
-			else if (Paintref.DarkGreenSelected)
+			else if (Paintref.ColourStorer == 4)
 			{
 				Rend.material = DGreen;
 			}
-			else if (Paintref.GreenSelected)
+			else if (Paintref.ColourStorer == 3)
 			{
 				Rend.material = Green;
 			}
-			else if (Paintref.DarkOrangeSelected)
+			else if (Paintref.ColourStorer == 6)
 			{
 				Rend.material = DOrange;
 			}
-			else if (Paintref.YellowSelected)
+			else if (Paintref.ColourStorer == 5)
 			{
 				Rend.material = Yellow;
 			}
         }
 		
-		if (Paintref.EraserSelected)
+		if (Paintref.ColourStorer == 0)
 		{
 			Rend.material.color = Color.black;
 		}

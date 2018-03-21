@@ -18,22 +18,11 @@ public class Paint_Materials : MonoBehaviour
     private GameObject Ice;
 	private bool ColoursAssigned = false;
     private bool MoveBlue = false;
-    private bool MoveDGreen = false;
-    private bool MoveGreen = false;
-    private bool MoveDOrange = false;
-    private bool MoveYellow = false;
-    private bool MoveIce = false;
     private float TranslateSpeed = 0.25f;
 	private AudioSource BackgroundMusic;
 
-	[Header("Variables Used for Changing Material Colour")]
-	public bool BlueSelected = false;
-	public bool DarkBlueSelected = false;
-	public bool GreenSelected = false;
-	public bool YellowSelected = false;
-	public bool DarkOrangeSelected = false;
-	public bool DarkGreenSelected = false;
-	public bool EraserSelected = false;
+    //ColourSelected stores all colours 1=Blue, 2=DarkBlue, 3=Green, 4=DarkGreen, 5=Yellow, 6=Orange, 0=Eraser
+    public int ColourStorer = 0;
 	
     void Start()
     {
@@ -58,13 +47,7 @@ public class Paint_Materials : MonoBehaviour
 	
     public void Paint()
     {
-		BlueSelected = false;
-		DarkBlueSelected = false;
-		GreenSelected = false;
-		YellowSelected = false;
-		DarkOrangeSelected = false;
-		DarkGreenSelected = false;
-		EraserSelected = false;
+        ColourStorer = 0;
 		
         if (!Blue.activeInHierarchy)
         {
@@ -82,25 +65,15 @@ public class Paint_Materials : MonoBehaviour
         MoveBlue = true;
         yield return new WaitForSeconds(0.1f);
         DarkGreen.SetActive(true);
-        MoveDGreen = true;
         yield return new WaitForSeconds(0.1f);
         Green.SetActive(true);
-        MoveGreen = true;
         yield return new WaitForSeconds(0.1f);
         DarkOrange.SetActive(true);
-        MoveDOrange = true;
         yield return new WaitForSeconds(0.1f);
         Yellow.SetActive(true);
-        MoveYellow = true;
         yield return new WaitForSeconds(0.1f);
         Ice.SetActive(true);
-        MoveIce = true;
-        yield return new WaitForSeconds(0.1f);
-        MoveIce = false;
-        MoveYellow = false;
-        MoveDOrange = false;
-        MoveGreen = false;
-        MoveDGreen = false;
+        yield return new WaitForSeconds(0.15f);
         MoveBlue = false;
     }
 
@@ -119,31 +92,11 @@ public class Paint_Materials : MonoBehaviour
         {
             Blue.transform.Translate(Vector3.left * TranslateSpeed / Time.deltaTime);
         }
-        if (MoveDGreen)
-        {
-            DarkGreen.transform.Translate(Vector3.left * TranslateSpeed / Time.deltaTime);
-        }
-        if (MoveGreen)
-        {
-            Green.transform.Translate(Vector3.left * TranslateSpeed / Time.deltaTime);
-        }
-        if (MoveDOrange)
-        {
-            DarkOrange.transform.Translate(Vector3.left * TranslateSpeed / Time.deltaTime);
-        }
-        if (MoveYellow)
-        {
-            Yellow.transform.Translate(Vector3.left * TranslateSpeed / Time.deltaTime);
-        }
-        if (MoveIce)
-        {
-            Ice.transform.Translate(Vector3.left * TranslateSpeed / Time.deltaTime);
-        }
     }
 
     public void Eraser()
     {
-		EraserSelected = true;
+        ColourStorer = 0;
     }
 
     public void Exit()
@@ -156,56 +109,50 @@ public class Paint_Materials : MonoBehaviour
         Blue.SetActive(false);
         Blue.transform.localPosition = new Vector3(0, 0, 0);
         DarkGreen.SetActive(false);
-        DarkGreen.transform.localPosition = new Vector3(0, 0, 0);
         Green.SetActive(false);
-        Green.transform.localPosition = new Vector3(0, 0, 0);
         DarkOrange.SetActive(false);
-        DarkOrange.transform.localPosition = new Vector3(0, 0, 0);
         Yellow.SetActive(false);
-        Yellow.transform.localPosition = new Vector3(0, 0, 0);
         Ice.SetActive(false);
-        Ice.transform.localPosition = new Vector3(0, 0, 0);
     }
 
     public void ChangeColourBlue()
     {
-        BlueSelected = true;
+        ColourStorer = 1;
         Debug.Log("You have selected Blue");
         ResetColours();
     }
-
-    public void ChangeColourDarkGreen()
+    public void ChangeColourIce()
     {
-        DarkGreenSelected = true;
-        Debug.Log("You have selected Dark Green");
+        ColourStorer = 2;
+        Debug.Log("You have selected Dark Blue");
         ResetColours();
     }
 
     public void ChangeColourGreen()
     {
-        GreenSelected = true;
+        ColourStorer = 3;
         Debug.Log("You have selected Green");
         ResetColours();
     }
 
-    public void ChangeColourDarkOrange()
+    public void ChangeColourDarkGreen()
     {
-        DarkOrangeSelected = true;
-        Debug.Log("You have selected Dark Orange");
+        ColourStorer = 4;
+        Debug.Log("You have selected Dark Green");
         ResetColours();
     }
 
     public void ChangeColourYellow()
     {
-        YellowSelected = true;
+        ColourStorer = 5;
         Debug.Log("You have selected Yellow");
         ResetColours();
     }
 
-    public void ChangeColourIce()
+    public void ChangeColourDarkOrange()
     {
-        DarkBlueSelected = true;
-        Debug.Log("You have selected Ice");
+        ColourStorer = 6;
+        Debug.Log("You have selected Dark Orange");
         ResetColours();
     }
 }
