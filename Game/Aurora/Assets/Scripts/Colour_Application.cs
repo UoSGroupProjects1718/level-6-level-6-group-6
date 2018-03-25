@@ -18,6 +18,13 @@ public class Colour_Application : MonoBehaviour
 	public Material DOrange;
 	public Material Yellow;
 
+    //Colouring Particle Effects 
+    public GameObject butterFlyParticleEffect;
+    public GameObject leafParticleEffect;
+    public GameObject stoneParticleEffect;
+    public GameObject woodParticleEffect;
+    public GameObject waterParticleEffect; 
+
     void Start()
     {
 		GameMan = GameObject.Find("Game_Manager");
@@ -32,12 +39,14 @@ public class Colour_Application : MonoBehaviour
     {
         if (!Paintref.Blue.activeSelf)
         {
-			/*if (!OnClick.isPlaying)
+            /*if (!OnClick.isPlaying)
 			{	
 				OnClick.PlayOneShot(Chimes, 0.5f);
 			}*/
-            Instantiate(ColourChangeParticleEffect, transform.position, transform.rotation);
-			
+            //Instantiate(ColourChangeParticleEffect, transform.position, transform.rotation);
+
+            ParticleEffctSystem(); 
+
 			if (Paintref.ColourStorer == 1)
 			{
 				Rend.material = Blue;
@@ -68,5 +77,25 @@ public class Colour_Application : MonoBehaviour
 		{
 			Rend.material.color = Color.black;
 		}
+    }
+
+    public void ParticleEffctSystem()
+    {
+        if(gameObject.tag == "ButterFly")
+        {
+            Instantiate(butterFlyParticleEffect, transform.position, transform.rotation);
+        }else if(gameObject.tag == "Leaf")
+        {
+            Instantiate(leafParticleEffect, transform.position, transform.rotation);
+        }else if(gameObject.tag == "Stone")
+        {
+            Instantiate(stoneParticleEffect, transform.position, transform.rotation);
+        }else if(gameObject.tag == "Wood")
+        {
+            Instantiate(woodParticleEffect, transform.position, transform.rotation);
+        }else if(gameObject.tag == "Water")
+        {
+            Instantiate(waterParticleEffect, transform.position, transform.rotation);
+        }
     }
 }                                                                                                                               
